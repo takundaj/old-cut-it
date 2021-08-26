@@ -54,7 +54,7 @@ p {
 
 /* nav bar */
 .header-section {
-    background-color: var(--primary);
+    background-color: #ffff;
     position: fixed;
     top: 0;
     width: 100%;
