@@ -720,7 +720,6 @@ font-size: 1.5rem;
 
 @media screen and (min-width: 670px) {
 
-
     .hero-grid {
         display: grid;
         grid-template-columns: 2fr 1fr ;
@@ -758,6 +757,12 @@ font-size: 1.5rem;
         margin: 0.75rem 0;
     }
 
+}
+
+@media screen and (min-width:1024px) {
+    .hero-section {
+        padding-top: 8rem;
+    }
 }
 
 
