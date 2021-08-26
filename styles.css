@@ -1,0 +1,699 @@
+:root {
+
+    --primary: #9F8268;
+    --secondary: #000000;
+    --accent: #FDF4EC;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    letter-spacing: 1.5;
+}
+
+main {
+    margin-left: clamp(3.8rem, calc(10vw * 1.6), 37rem);
+    margin-right: clamp(3.6rem, calc(10vw * 1.6) , 37rem);
+}
+
+/* Typography */ 
+h1, h2, h3 , h4 , h5 , h6, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 5vw ,4rem);
+}
+
+h2 {
+    font-size: clamp(1.8rem, 2vw, 2.5rem);
+}
+
+p {
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+.brown {
+    color: var(--primary);
+}
+
+.black {
+    color: var(--secondary);
+}
+
+.caption {
+    font-style: italic;
+}
+
+/* nav bar */
+.header-section {
+    background-color: #ffff;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 8%;
+    transition: position 0.5s;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+
+.navbar {
+    display: none;
+    align-items: center;
+}
+
+.navbar-item {
+    list-style: none;
+    margin: 0 2rem;
+    
+}
+
+
+.nav-subscribe {
+    display: none;
+} 
+
+.nav-menu-icon {
+    font-size: 3rem;
+    color: var(--primary)
+}
+
+.dropdown {
+    background-color: #ffff;
+    opacity: 0%;
+    max-height: 0;
+
+}
+
+.dropdown-collapsed {
+    opacity: 1;
+    max-height: 100%;
+    transition: all 1s;
+}
+
+.dropdown-list {
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item-dropdown {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+/*makes nav bar stick*/
+.sticky {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    transition: position 0.5s;
+}
+
+.margin-filler-active {
+    display: none;
+    height: 6rem;
+}
+
+.subscribe-btn {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    color: #ffff;
+    background-color: var(--primary);
+    border: none;
+    max-height: 3.5rem;
+    border-radius: 50px;
+    padding: 0.75rem 1.25rem ;
+    margin:0.25rem
+
+}
+
+@media screen and (min-width:1024px) {
+    
+    .nav-menu-icon {
+        display: none;
+    }
+
+    .subscribe-btn {
+        display: inline-block;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .margin-filler-active {
+        display: block;
+    }
+
+}
+
+/* icons */
+
+.social-icon {
+    font-size: 5rem;
+    margin:0 1rem;
+}
+
+
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* cta buttons */
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffff;
+    background-color: var(--primary);
+    border: none;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+.btn-cta {
+    max-height: 3.7rem;
+    border-radius: 50px;
+    padding: 0.6rem 1.5rem ;
+    margin:0.25rem
+}
+
+.btn-submit {
+    font-size: 1rem !important;
+    letter-spacing: 0.5px;
+}
+
+.download-icon {
+    margin-right:0.75rem;
+}
+
+/* feature buttons */
+.btn-feature{
+    max-width:70rem;
+    background-color: var(--primary);
+    border-radius: 15px;
+    padding: 0.75rem;
+    margin: 1rem;
+    box-shadow: 0 0 10rem var(--accent);
+}
+
+.btn-feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-icon-container {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    background-color: var(--accent);
+    margin: 0 1rem;
+    margin-right:5%;
+}
+
+.feature-title {
+    color: #ffff;
+    font-weight: medium;
+}
+
+.feature-seperator {
+    max-width: 65rem;
+}
+
+.feature-description {
+    color: #ffff;
+    padding: 0 3rem 1rem 4rem;
+}
+
+
+
+.hide {
+    display: none;
+    opacity: 0;
+    max-height: 0;
+}
+
+/* HOW TO BUTTONS*/
+.btn-howto {
+    max-width: 60rem;;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 15px;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10rem var(--primary);
+
+}
+
+.howto-icon-container {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.95rem;
+    border-radius: 40px;
+    background-color: var(#ffff);
+    margin: 0 1rem;
+    margin-right:5%;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.howto-title {
+    color: var(--secondary);
+}
+
+.howto-description {
+    color: var(--secondary);  
+}
+
+
+/* FAQ BUTTONS*/
+.btn-faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin: 1rem;
+    box-shadow: 0 0 10rem var(--accent);
+}
+
+.faq-icon {
+    color:#ffff;
+    font-size: 3rem;
+    padding: 0.25rem;
+    margin: 0 1rem;
+    margin-right:5%;
+}
+
+.faq-title {
+    color:#ffff;
+}
+
+/*App store buttons*/
+.btn-appstore{
+    max-width: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin: 1rem;
+    color: #ffff;
+
+}
+
+.appstore-icon {
+    color:#ffff;
+    font-size: 3rem;
+    padding: 0rem;
+    margin-right:2rem;
+}
+
+.appstore-description {
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.appstore-name {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+/* text fields */
+
+
+label {
+    font-size: 1.5rem;
+}
+
+.text-field-container {
+    max-width: 50rem;
+    display: flex;
+    box-shadow: 0 0 1rem var(--primary);
+    border-radius: 50px;
+    margin-top: 1.5rem;
+    max-height: 3.2rem;
+   
+}
+
+.text-field {
+    border:none;
+    border-radius: 50px 0 0 50px;
+    width: 100%;
+    margin: 0;
+    margin-left:2rem;
+}
+
+.text-field:focus {
+outline: none;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* media component  */
+.media {
+    display: flex;
+    flex-direction: row;
+    max-width: 50rem;
+}
+
+.media-icon-container {
+    width: 5.7rem;
+    height: 5.7rem;
+    display: inline-block;
+    display: grid;
+    place-items: center;
+    background-color: var(--primary);
+    padding:0.6rem 0.6rem;
+    border-radius:50%;
+
+}
+
+.media-icon-ring {
+
+    border: 3px solid #FDF4EC;
+    padding:1rem 1.25rem;
+    border-radius:50%;
+}
+
+.usecase-icon {
+    font-size: 3rem;
+
+    color: #ffff;
+}
+
+.media-text {
+    margin-left:1rem ;
+}
+
+
+
+/* data wheel */
+
+.data-wheel {
+width: 13.5rem;
+ height: 13.5rem;
+ object-fit: cover;
+    display: grid;
+    place-items: center;
+    background-image: url(/images/datawheel-background.svg);
+    color:#ffff;
+}
+
+.data-wheel-content {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* price card */
+.card {
+    max-width:32rem;
+    background-color: #ffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 1.5rem var(--primary);
+    margin:2rem
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+
+}
+
+.card-header {
+    background-color: #9F8268;
+    padding: 1rem 0;
+    color: #ffff;
+}
+
+.card-title {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.large {
+    font-size: 4rem;
+}
+
+.card-subtitle {
+    text-align: center;
+}
+
+.card-body-list {
+font-size: 1.5rem;
+
+}
+
+.card-body-list-item {
+    margin-bottom:2rem;
+    list-style-image: url(/images/price-list-tick.svg);
+
+}
+
+.card-button {
+    background-color: var(--primary);
+    border:none;
+    color:#ffff;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+/* seperator */
+
+.seperator {
+    background-color: #9F8268;
+    height: 2.5px;
+}
+
+/* social block */
+
+/* scroll bar */
+
+
+
+/* Testimonial */
+
+.testimonial {
+ max-width:84rem;
+ text-align: center;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ border: 1px solid black;
+}
+
+
+.testimonial-quote-grid {
+    font-weight: 300;
+    color: var(--primary);
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    place-items: center;
+}
+
+.testimonial-name {
+    color: var(--primary);
+}
+
+.upside-down {
+    transform: rotate(180deg);
+}
+
+
+/* Footer */
+
+/*INVERTED APPSTORE (FOOTER0*/
+.btn-appstore-inverted {
+    max-width: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin: 1rem;
+    color: var(--secondary);
+    background: transparent;
+    border: 2px solid var(--secondary);
+}
+
+.appstore-description-inverted {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.appstore-name-inverted {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* SECTION */
+
+.section {
+    margin-top: clamp(4rem, 10vw, 6rem);
+}
+
+.hero-section {
+
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero-grid-title-section {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top: 10%;
+}
+
+.hero-grid-image-section {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.hero-grid-subscribe-section {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+.download-button{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #ffff;
+        background-color: var(--primary);
+        border: none;
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
+        max-height: 3.7rem;
+        border-radius: 50px;
+        padding: 0.5rem 1.5rem;
+        margin:0rem
+
+}
+
+.hero-image {
+    width: clamp(15rem, 30vw, 35rem);
+    margin: 0;
+    padding: 0;
+}
+
+.title-text {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: clamp(2.75rem, 5vw, 10rem);
+    line-height: clamp(3rem, 100%, 6rem);
+}
+
+.title-text-subtitle {
+    max-width: 37rem;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 800px) {
+
+
+    .hero-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .hero-grid-image-section {
+        text-align: center;
+    }
+
+    .hero-grid-title-section {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+
+    .hero-grid-subscribe-section {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        padding: 5rem 0;
+    }
+
+    .download-button {
+        padding: 0.8rem 3rem ;
+    }
+
+
+    .text-field-container {
+        max-width: 45rem;
+    }
+
+}
