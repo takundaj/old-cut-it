@@ -16,6 +16,7 @@ body {
     font-size: 1.2rem;
     margin: 0;
     letter-spacing: 1.5;
+    position: relative;
 }
 
 main {
@@ -53,7 +54,10 @@ p {
 
 /* nav bar */
 .header-section {
-    background-color: #ffff;
+    background-color: var(--primary);
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
@@ -136,7 +140,6 @@ p {
 
 .margin-filler {
     display: none;
-    height: 6rem;
 }
 
 .margin-filler-active {
@@ -211,15 +214,16 @@ p {
 }
 
 .btn-cta {
-    max-height: 3.7rem;
+    max-height: 4rem;
     border-radius: 50px;
     padding: 0.6rem 1.5rem ;
-    margin:0.25rem
+    margin:0.25rem 0.1rem;
 }
 
 .btn-submit {
-    font-size: 1rem !important;
+    font-size: 1.05rem !important;
     letter-spacing: 0.5px;
+
 }
 
 .download-icon {
@@ -234,7 +238,7 @@ p {
     border-radius: 15px;
     padding: 0.75rem;
     margin: 1rem;
-    box-shadow: 0 0 0rem var(--accent);
+    box-shadow: 0 0 1rem var(--primary);
 }
 
 .btn-feature-container {
@@ -374,7 +378,10 @@ display: NONE;
 /* text fields */
 
 .email-form {
-margin-top: 3rem;
+margin-top: 0rem;
+text-align: center;
+background-color: white;
+
 }
 
 
@@ -383,8 +390,10 @@ label {
 }
 
 .text-field-container {
+    background-color: #ffff;
     max-width: 50rem;
     display: flex;
+    align-items: center;
     box-shadow: 0 0 1rem var(--primary);
     border-radius: 50px;
     margin-top: 1.5rem;
@@ -406,7 +415,7 @@ outline: none;
 }
 
 .bold {
-    font-weight: bold;
+    font-weight:600;
 }
 
 
@@ -446,9 +455,10 @@ outline: none;
     margin-left:1rem ;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:650px) {
     .email-form {
         margin-top: 0.5rem;
+        text-align: start
     }
 }
 
@@ -622,12 +632,13 @@ font-size: 1.5rem;
     margin-right: clamp(4rem,10vw,15rem);
     padding-top: clamp(2rem, 5vh, 8rem);
     padding-bottom: clamp(2rem, 5vh, 8rem);
+
 }
 
 .hero-grid {
     display: grid;
     grid-template-columns: 2fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.75fr;
 }
 
 .hero-grid-title-section {
@@ -682,8 +693,17 @@ font-size: 1.5rem;
     justify-content: space-between;
 }
 
+.title-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
 .title-filler {
     color: #ffff;
+}
+
+#job-title {
+    border-right: 1px solid black;
 }
 
 .title {
@@ -698,7 +718,7 @@ font-size: 1.5rem;
     margin-bottom: clamp(2rem, 2vh, 4rem);
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 670px) {
 
 
     .hero-grid {
@@ -761,7 +781,7 @@ font-size: 1.5rem;
 
 .quote-grid {
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     margin: 5vh;
 }
 

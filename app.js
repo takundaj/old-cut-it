@@ -5,7 +5,6 @@ const topfiller = document.querySelector('.margin-filler')
 //nav bar sticky
 window.addEventListener('scroll', () => {
     header.classList.toggle('sticky', window.scrollY > 0)
-    topfiller.classList.toggle('margin-filler-active', window.scrollY > 0)
     
 })
 
