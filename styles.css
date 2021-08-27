@@ -750,6 +750,11 @@ font-size: 1.5rem;
 }
 
     @media screen and (min-width:1024px) {
+        .email-form {
+            margin-top: 0.5rem;
+            text-align: start
+        }
+        
         .text-field-container {
             margin-top: 2.5rem;
             max-width: 100%;
@@ -832,9 +837,8 @@ font-size: 1.5rem;
 }
 
 .features-container {
-    max-width: 150rem;
-    margin-left: clamp(2rem,5vw,8rem);
-    margin-right: clamp(2rem,5vw,8rem);
+    margin-left: clamp(2rem,5vw,5rem);
+    margin-right: clamp(2rem,3vw,5rem);
     padding-top: clamp(4rem, 5vh, 15rem);
     padding-bottom: clamp(4rem, 5vh, 15rem);
     display: flex;
@@ -869,7 +873,7 @@ font-size: 1.5rem;
 
 .features-image {
     display: none;
-    width: clamp(15rem, 40vw, 30rem);
+    width: clamp(15rem, 40vw, 40rem);
     margin: 0;
     padding: 0;
 }
@@ -878,7 +882,7 @@ font-size: 1.5rem;
 /* feature buttons */
 .btn-feature{
 
-    width: clamp(30rem, 50vw,  60rem);
+    width: clamp(30rem, 50vw,  73rem);
     background-color: var(--primary);
     border-radius: 15px;
     padding: 0.75rem;
@@ -976,8 +980,7 @@ display: NONE;
 }
 
 .whyus-intro {
-    margin-top: clamp(2rem, 3vh, 3rem);
-    margin-bottom: clamp(5rem, 8vh, 10rem );
+    margin-bottom: clamp(4rem, 3vh, 5rem );
 }
 
 .whyus-grid {
@@ -1048,9 +1051,10 @@ display: NONE;
 }
 
 @media screen and (min-width:650px) {
-    .email-form {
-        margin-top: 0.5rem;
-        text-align: start
+
+    .whyus-intro {
+        margin-top: clamp(2rem, 3vh, 3rem);
+        margin-bottom: clamp(5rem, 8vh, 10rem );
     }
 }
 
