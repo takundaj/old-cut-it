@@ -799,6 +799,7 @@ font-size: 1.5rem;
     margin-top: 5%;
     display: grid;
     place-items: center;
+    width: 100%;
 }
 
 .features-image {
@@ -811,12 +812,14 @@ font-size: 1.5rem;
 
 /* feature buttons */
 .btn-feature{
-    width: clamp(30rem, 52vw, 73rem);
+    width: clamp(30rem, 50vw, 73rem);
     background-color: white;
     border-radius: 15px;
     padding: 0.75rem;
     margin: 1rem auto;
     box-shadow: 0 0 1rem var(--primary);
+    width: 90%;
+    max-width:73rem;
 }
 
 .btn-feature-container {
