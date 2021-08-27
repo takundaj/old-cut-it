@@ -810,7 +810,7 @@ font-size: 1.5rem;
 /* feature buttons */
 .btn-feature{
 
-    width: clamp(38rem, 40vw,  73rem);
+    width: clamp(34rem, 40vw,  73rem);
     background-color: var(--primary);
     border-radius: 15px;
     padding: 0.75rem;
