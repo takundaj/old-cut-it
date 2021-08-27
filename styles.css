@@ -17,6 +17,7 @@ body {
     margin: 0;
     letter-spacing: 1.5;
     position: relative;
+    background-color: var(--accent);
 }
 
 main {
@@ -695,6 +696,7 @@ font-size: 1.5rem;
     flex-direction: column;
     align-items: center;
     background-color: var(--ac);
+    
 }
 
 .subscribe-section-container {
@@ -703,12 +705,6 @@ font-size: 1.5rem;
     margin-right: clamp(2rem,10vw,15rem);
     padding-top: clamp(3rem, 5vh, 8rem);
     padding-bottom: clamp(3rem, 5vh, 8rem);
-
-}
-
-.hero-grid-subscribe-section {
-    grid-row: 2/3;
-    grid-column: 1/2;
 }
 
 
@@ -751,8 +747,9 @@ font-size: 1.5rem;
 
     @media screen and (min-width:1024px) {
         .email-form {
+            width: 80rem;
             margin-top: 0.5rem;
-            text-align: start
+            text-align: center
         }
         
         .text-field-container {
@@ -909,7 +906,8 @@ font-size: 1.5rem;
 
 .feature-title {
     color: #ffff;
-    font-weight: medium;
+    font-weight: 400;
+    font-size: (1.4rem, 1vw , 2rem );
 }
 
 .feature-seperator {
@@ -991,8 +989,9 @@ display: NONE;
 }
 
 .whyus-heading {
-
+    font-size: clamp(2.5rem, 2vw, 6rem );
     margin-bottom: 5rem;
+    font-weight: 400;
 
 }
 
@@ -1013,32 +1012,13 @@ display: NONE;
 }
 
 .media-icon {
-    width: 5.7rem;
-    height: 5.7rem;
+    width: clamp(5.7rem, 6vw, 10rem);
+    height: clamp(5.7rem, 6vw, 10rem);
     margin-right: 2rem;
     border-radius:50%;
 
 }
 
-.media-icon-container {
-    width: 5.7rem;
-    height: 5.7rem;
-    display: inline-block;
-    display: grid;
-    place-items: center;
-    background-color: var(--primary);
-    padding:0.6rem 0.6rem;
-    margin-right: 2rem;
-    border-radius:50%;
-
-}
-
-.media-icon-ring {
-
-    border: 3px solid #FDF4EC;
-    padding:1rem 1.25rem;
-    border-radius:50%;
-}
 
 .usecase-icon {
 
@@ -1079,6 +1059,10 @@ display: NONE;
 
     .specialist-section {
         grid-template-columns: 3/4;
+
+    }
+
+    .media-icon {
 
     }
 
