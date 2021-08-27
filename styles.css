@@ -345,7 +345,7 @@ font-size: 1.5rem;
 
 .seperator {
     background-color: #9F8268;
-    height: 2.5px;
+    height: 2px;
     margin-left: clamp(3.8rem, calc(10vw * 1.6), 37rem);
     margin-right: clamp(3.6rem, calc(10vw * 1.6) , 37rem);
     margin-top: clamp(2rem, 1vh, 10rem);
@@ -521,7 +521,7 @@ font-size: 1.5rem;
 
 .title {
     font-size: clamp(4rem, 5vw, 10rem);
-    line-height: clamp(3rem, 100%, 5rem);
+    line-height: clamp(3rem, 100%, 10rem);
     text-align: center;
 }
 
@@ -634,23 +634,26 @@ font-size: 1.5rem;
     max-width: 200rem;
     margin-left: clamp(2rem,10vw,15rem);
     margin-right: clamp(2rem,10vw,15rem);
-    padding-top: clamp(3rem, 5vh, 8rem);
-    padding-bottom: clamp(3rem, 5vh, 8rem);
+
 }
 
 
 .email-form {
-    margin-top: 0rem;
-    margin-bottom: 2rem;
     text-align: center;
     
  }
 
  .form-description {
-     font: clamp(1rem, 2vw, 2.3rem);
-     margin: 2rem 0;
+     font: clamp(2rem, 2vw, 4rem);
+
  }
     
+ .form-description-bottom {
+    font: clamp(2rem, 2vw, 4rem);
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
 .text-field-container {
         background-color: #ffff;
         max-width: 90rem;
@@ -679,7 +682,6 @@ font-size: 1.5rem;
     @media screen and (min-width:1024px) {
         .email-form {
             width: 80rem;
-            margin-top: 0.5rem;
             text-align: center
         }
         
@@ -693,8 +695,8 @@ font-size: 1.5rem;
             max-width: 70%;
             margin-left: 0;
             margin-right: 0;
-            padding-top: clamp(3rem, 5vh, 8rem);
-            padding-bottom: clamp(3rem, 5vh, 8rem);
+            margin-top: 1rem;
+            margin-bottom: 1rem;
         
         }
     }
@@ -765,8 +767,8 @@ font-size: 1.5rem;
 }
 
 .features-container {
-    margin-left: clamp(2rem,5vw,5rem);
-    margin-right: clamp(2rem,3vw,5rem);
+    margin-left: clamp(2rem,5vw, 5rem);
+    margin-right: clamp(2rem,5vw, 5rem);
     padding-top: clamp(4rem, 5vh, 15rem);
     padding-bottom: clamp(4rem, 5vh, 15rem);
     display: flex;
@@ -794,9 +796,7 @@ font-size: 1.5rem;
 }
 
 .features-buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 5%;
 }
 
 .features-image {
@@ -809,12 +809,11 @@ font-size: 1.5rem;
 
 /* feature buttons */
 .btn-feature{
-
-    width: clamp(30rem, 40vw,  73rem);
-    background-color: var(--primary);
+    width:100%;
+    background-color: white;
     border-radius: 15px;
     padding: 0.75rem;
-    margin: 1rem;
+    margin: 1rem auto;
     box-shadow: 0 0 1rem var(--primary);
 }
 
@@ -827,16 +826,23 @@ font-size: 1.5rem;
 
 .feature-icon-container {
     font-size: 2.25rem;
-    padding: 0.15rem 0.85rem;
-    border-radius: 40px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
     background-color: #ffff;
     margin: 0 1rem;
     margin-right:5%;
-    border: 2px solid var(--accent);
+    border: 3.5px solid var(--primary);
+    display: grid;
+    place-items: center;
+}
+
+.feature-icon {
+    color: var(--primary);
 }
 
 .feature-title {
-    color: #ffff;
+    color: black;
     font-weight: 400;
     font-size: (1.4rem, 1vw , 2rem );
 }
@@ -848,7 +854,7 @@ font-size: 1.5rem;
 
 .feature-description {
 display: none;
-    color: #ffff;
+    color: black;
     margin: 1rem 3rem 2rem 5rem;
     max-width: 55rem;
 }
@@ -876,21 +882,20 @@ display: none;
     }
 
     .btn-feature {
-        padding: 1rem;
+        margin: 1rem 0;
     }
 
     .feature-icon-container {
+        width: 5rem;
+        height: 5rem;
         font-size: 3rem;
-        padding: 0.15rem 1.1rem;
         border-radius: 40px;
         margin: 0 1rem;
         margin-right:5%;
-        border: 4px solid var(--accent);
     }
     
     .feature-description {
-            color: #ffff;
-            margin: 1rem 3rem 2rem 7rem;
+            margin: 0rem 3rem 4rem 7rem;
             max-width: 55rem;
         }
 }
