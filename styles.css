@@ -1000,7 +1000,7 @@ display: none;
 }
 
 .howto-container {
-    max-width: 120rem;
+    max-width: 100rem;
     text-align: center;
     margin-left: clamp(4rem,5vw,10rem);
     margin-right: clamp(4rem,5vw,10rem);
@@ -1011,7 +1011,8 @@ display: none;
 .howto-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.75fr 1fr 0.5fr ;
+    grid-template-rows: 0.75fr 1fr 0.5fr;
+
 }
 
 .howto-image-container {
@@ -1040,7 +1041,7 @@ display: none;
 
 /* HOW TO BUTTONS*/
 .btn-howto {
-    width: clamp(15rem, 85vw, 60rem);
+    width: clamp(30rem, 50vw, 50rem);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -1082,7 +1083,8 @@ display: none;
     
     .howto-grid {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 0.5fr; 
+        grid-template-rows: 1fr 0.5fr;
+        
     }
 
     .howto-image-container {
@@ -1134,29 +1136,12 @@ display: none;
 }
 
 @media screen and  (min-width:768px) {
-    
-    .appstore-grid {
-        margin: 4rem auto;
-        grid-template-rows: 1fr 0.5fr 0.5fr;
-    }
-
-    .appstore-grid-buttonA {
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
-    
-    .appstore-grid-buttonB {
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-
-
 
     .appstore-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 0.5fr;
-        grid-gap: 1rem;
+        grid-gap: 0rem;
     }
     
     .appstore-grid-text {
@@ -1178,10 +1163,10 @@ display: none;
 
 /*App store buttons*/
 .btn-appstore{
-    max-width: 25rem;
+    max-width: 20rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: var(--secondary);
     border-radius: 10px;
@@ -1196,6 +1181,7 @@ display: none;
     font-size: 3rem;
     padding: 0rem;
     margin-right:2rem;
+    margin-left: 1rem;
 }
 
 .appstore-description {
