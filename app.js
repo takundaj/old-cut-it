@@ -14,9 +14,11 @@ header.addEventListener('click', event => {
         
     if (dropdown.classList.contains('dropdown-collapsed')) {
         dropdown.classList.remove('dropdown-collapsed')
+        header.style.boxShadow = ""
     } else {
 
         dropdown.classList.toggle('dropdown-collapsed', event.target.tagName == 'I' )
+        header.style.boxShadow = "0 0 1rem grey"
 
     }
 
