@@ -30,7 +30,7 @@ header.addEventListener('click', event => {
 const titleObject = document.getElementById('job-title');
 
 //Declare array of specialist title you want to loops through
-const jobsArray= ["SPECIALIST","BARBER", "HAIR DRESSER", "TATOO ARTIST", "NAIL TECH", "BEAUTICIAN"]
+const jobsArray= ["Specialist","Barber", "Hairdresser", "Tatoo Artist", "Nail tech", "Beautician"]
 
 let i = 0
 let j = 0
