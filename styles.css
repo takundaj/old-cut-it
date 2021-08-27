@@ -797,6 +797,8 @@ font-size: 1.5rem;
 
 .features-buttons {
     margin-top: 5%;
+    display: grid;
+    place-items: center;
 }
 
 .features-image {
@@ -809,7 +811,7 @@ font-size: 1.5rem;
 
 /* feature buttons */
 .btn-feature{
-    width:100%;
+    width: clamp(30rem, 52vw, 73rem);
     background-color: white;
     border-radius: 15px;
     padding: 0.75rem;
