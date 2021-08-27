@@ -1321,6 +1321,7 @@ margin: 0 0.75rem;
 
 .swiper-wrapper {
     max-width: 80rem;
+    margin-bottom: 2rem;
 }
 
 .swiper-button-prev {
@@ -1331,9 +1332,12 @@ margin: 0 0.75rem;
     color: var(--primary);
 }
 
+
 .swiper-pagination-bullet-active {
     background-color: var(--primary);
 }
+
+
 
 /* Testimonial component */
 
