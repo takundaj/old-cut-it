@@ -339,38 +339,6 @@ font-size: 1.5rem;
 
 
 
-/* Testimonial */
-
-.testimonial {
- max-width:84rem;
- text-align: center;
- margin: auto;
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- align-items: center;
- border: 1px solid black;
-}
-
-
-.testimonial-quote-grid {
-    font-weight: 300;
-    color: var(--primary);
-    margin-bottom: 2rem;
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    place-items: center;
-}
-
-.testimonial-name {
-    color: var(--primary);
-}
-
-.upside-down {
-    transform: rotate(180deg);
-}
-
-
 /* Footer */
 
 /*INVERTED APPSTORE (FOOTER0*/
@@ -505,7 +473,7 @@ font-size: 1.5rem;
 
 .title {
     font-size: clamp(4rem, 5vw, 10rem);
-    line-height: clamp(3rem, 100%, 10rem);
+    line-height: clamp(2rem, 100%, 10rem);
     text-align: center;
 }
 
@@ -998,8 +966,8 @@ display: none;
 
 .howto-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .howto-container {
@@ -1030,11 +998,14 @@ display: none;
     align-items: center;
     grid-row: 2/3;
     grid-column: 1/2;
+
 }
 
 .howto-list {
-
+margin: 0 0.75rem;
+ 
 }
+
 
 .howto-appstore-section {
     grid-column: 1/2;
@@ -1325,4 +1296,76 @@ display: none;
 
 
 
+}
+
+
+
+
+
+/* Tesimonials */
+.testimonials-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*custom swiper styles*/
+
+.swiper {
+    text-align: center;
+    margin-left: clamp(4rem,5vw,10rem);
+    margin-right: clamp(4rem,5vw,10rem);
+    padding-top: clamp(1rem,3vh, 10rem);
+    padding-bottom: clamp(1rem, 3vh, 8rem);
+}
+
+.swiper-wrapper {
+    max-width: 80rem;
+}
+
+.swiper-button-prev {
+    color: var(--primary);
+}
+
+.swiper-button-next {
+    color: var(--primary);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary);
+}
+
+/* Testimonial component */
+
+.testimonial {
+    max-width:84rem;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+   
+   
+.testimonial-quote-grid {
+    font-weight: 300;
+    color: var(--primary);
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    place-items: center;
+}
+
+.testimonial-text {
+    font-size: clamp(2rem, 2vw, 4rem);
+}
+   
+.testimonial-name {
+    color: var(--primary);
+}
+   
+.upside-down {
+    transform: rotate(180deg);
 }

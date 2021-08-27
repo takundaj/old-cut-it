@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/49dafdb3d2.js" crossorigin="anonymous"></script>
+    <!--swiper.css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
     <!--my css-->
     <link rel="stylesheet" href="/styles.css">
 </head>
@@ -254,7 +257,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 266.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Book appointments</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -262,7 +265,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 267.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Cashless payments</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -270,7 +273,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 268.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Connect with other users & specialists</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -284,7 +287,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 269.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Collaborate</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -292,7 +295,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 270.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Grow your business</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -300,7 +303,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 271.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Optimise performance</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -308,7 +311,7 @@
                         <div class="media">
                             <img class="media-icon" src="/images/Group 272.svg" alt="">
                             <div class="media-text">
-                                <h2>Headings </h2>
+                                <h2>Organise bookings & payments</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio aliquam corporis quod atque minima quisquam non, at illum temporibus.</p>
                             </div>
                         </div>
@@ -355,8 +358,8 @@
                                     <i class="fas fa-download"></i>
                                 </div>
                                 <div class="howto-text">
-                                    <h3 class="howto-title">Download</h3>
-                                    <p class="howto-description">Available on iOS and Android.</p>
+                                    <h3 class="howto-title">Singup</h3>
+                                    <p class="howto-description">Follow our easy process to create your account.</p>
                                 </div>
                             </div>
 
@@ -365,8 +368,8 @@
                                     <i class="fas fa-download"></i>
                                 </div>
                                 <div class="howto-text">
-                                    <h3 class="howto-title">Download</h3>
-                                    <p class="howto-description">Available on iOS and Android.</p>
+                                    <h3 class="howto-title">Access</h3>
+                                    <p class="howto-description">Set your location to access the best specialists near you, view their previous work & reviews</p>
                                 </div>
                             </div>
 
@@ -375,8 +378,8 @@
                                     <i class="fas fa-download"></i>
                                 </div>
                                 <div class="howto-text">
-                                    <h3 class="howto-title">Download</h3>
-                                    <p class="howto-description">Available on iOS and Android.</p>
+                                    <h3 class="howto-title">Pick your specialist</h3>
+                                    <p class="howto-description">Browse and choose your favourite specialist from a collection of pictures, ratings and more info.</p>
                                 </div>
                             </div>
 
@@ -385,8 +388,9 @@
                                     <i class="fas fa-download"></i>
                                 </div>
                                 <div class="howto-text">
-                                    <h3 class="howto-title">Download</h3>
-                                    <p class="howto-description">Available on iOS and Android.</p>
+                                    <h3 class="howto-title">Book and pay</h3>
+                                    <p class="howto-description">Easily book, re-book & tip your specialists directly through our app, in a few clicks.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -488,13 +492,58 @@
         <!--Testimonial section-->
 
         <div class="testimonials-section">
-            <div class="testimonials-container">
+            <div class="testimonials-container swiper">
 
-                <div class="testimonials-slider">
+                <div class="testimonials-slider swiper-wrapper">
 
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-quote-grid">
+                            <img src="/images/quote-upwards.svg" alt="">
+                            <p class="testimonial-text brown">CUT-IT gives artists the creative space to share their work, master their craft or turn their hobby into a profession. </p>
+                            <img class="upside-down" src="/images/quote-downwards.svg" alt="">
+                        </div>
+                        <div class="testimonial-caption caption">
+                            <img class="testimonial-image" src="/images/testimonial-image.svg" alt="">
+                            <p class="testimonial-name">Mark Becker</p>
+                            <p class="testimonial-Location">Bristol, UK</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-quote-grid">
+                            <img src="/images/quote-upwards.svg" alt="">
+                            <p class="testimonial-text brown">CUT-IT gives artists the creative space to share their work, master their craft or turn their hobby into a profession. </p>
+                            <img class="upside-down" src="/images/quote-downwards.svg" alt="">
+                        </div>
+                        <div class="testimonial-caption caption">
+                            <img class="testimonial-image" src="/images/testimonial-image.svg" alt="">
+                            <p class="testimonial-name">Mark Becker</p>
+                            <p class="testimonial-Location">Bristol, UK</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-quote-grid">
+                            <img src="/images/quote-upwards.svg" alt="">
+                            <p class="testimonial-text brown">CUT-IT gives artists the creative space to share their work, master their craft or turn their hobby into a profession. </p>
+                            <img class="upside-down" src="/images/quote-downwards.svg" alt="">
+                        </div>
+                        <div class="testimonial-caption caption">
+                            <img class="testimonial-image" src="/images/testimonial-image.svg" alt="">
+                            <p class="testimonial-name">Mark Becker</p>
+                            <p class="testimonial-Location">Bristol, UK</p>
+                        </div>
+                    </div>
 
 
                 </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
 
             </div>
         </div>
@@ -506,7 +555,8 @@
 
 
     </main>
-
+    <!--swiper.js-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="/app.js"></script>
 </body>
 </html>
