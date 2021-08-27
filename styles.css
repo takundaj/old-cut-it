@@ -68,7 +68,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 8%;
+    padding: 0.75rem 8%;
     transition: position 0.5s;
 
 }
@@ -100,7 +100,7 @@ p {
 } 
 
 .nav-menu-icon {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: var(--primary)
 }
 
@@ -1197,7 +1197,7 @@ display: none;
 
 
 
-/* DATA WHEEL */
+/* DATA SECTION */
 .data-section {
     display: flex;
     flex-direction: column;
@@ -1208,8 +1208,8 @@ display: none;
     text-align: center;
     margin-left: clamp(4rem,5vw,10rem);
     margin-right: clamp(4rem,5vw,10rem);
-    padding-top: clamp(2rem, 5vh, 8rem);
-    padding-bottom: clamp(5rem, 5vh, 8rem);
+    padding-top: clamp(1rem,3vh, 10rem);
+    padding-bottom: clamp(1rem, 3vh, 8rem);
 }
 
 .data-text-subheading {
@@ -1276,6 +1276,14 @@ display: none;
         font-size: 1.6rem;
     }
     
+    .data-description {
+        font-size: 1.4rem;
+        margin-top: 0%;
+    }
+
+    .happy-customers {
+        font-size: 1.1rem;
+    }
 
 
 
