@@ -1,6 +1,9 @@
 const header = document.querySelector('.header-section');
 const dropdown = document.querySelector('.dropdown');
-const topfiller = document.querySelector('.margin-filler')
+const topfiller = document.querySelector('.margin-filler');
+const menuButton = document.querySelector('.nav-menu-icon');
+const priceSwiper = document.querySelector('.priceplan-container');
+const priceSwiperWrapper = document.querySelector('.priceplan-swiper');
 
 //nav bar sticky
 window.addEventListener('scroll', () => {
@@ -16,7 +19,8 @@ header.addEventListener('click', event => {
         dropdown.classList.remove('dropdown-collapsed')
         dropdown.style.display = "none"
         header.style.boxShadow = ""
-    } else {
+    
+    } else if (!dropdown.classList.contains('dropdown-collapsed') && event.target === menuButton) {
 
         dropdown.classList.toggle('dropdown-collapsed', event.target.tagName == 'I' )
         header.style.boxShadow = "0 0 1rem grey"
@@ -24,9 +28,6 @@ header.addEventListener('click', event => {
     }
 
 })
-
-
-
 
 
 //get h1 element
@@ -106,7 +107,8 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     slidesPerView: 1,
     direction: 'horizontal',
-    loop: true,
+    loop: false,
+    allowTouchMove: true,
   
     // If we need pagination
     pagination: {
