@@ -103,6 +103,12 @@ p {
     color: var(--primary)
 }
 
+.nav-menu-icon:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+
 .dropdown {
     background-color: #ffff;
     opacity: 0%;
@@ -263,64 +269,6 @@ p {
 }
 
 
-
-/* price card */
-.card {
-    max-width:32rem;
-    background-color: #ffff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 1.5rem var(--primary);
-    margin:2rem
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 2rem;
-
-}
-
-.card-header {
-    background-color: #9F8268;
-    padding: 1rem 0;
-    color: #ffff;
-}
-
-.card-title {
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-}
-
-.large {
-    font-size: 4rem;
-}
-
-.card-subtitle {
-    text-align: center;
-}
-
-.card-body-list {
-font-size: 1.5rem;
-
-}
-
-.card-body-list-item {
-    margin-bottom:2rem;
-    list-style-image: url(/images/price-list-tick.svg);
-
-}
-
-.card-button {
-    background-color: var(--primary);
-    border:none;
-    color:#ffff;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    border-radius: 10px;
-}
 
 /* seperator */
 
@@ -1334,9 +1282,13 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     justify-content: center;
 }
 
+.testimonials-container {
+
+}
+
 /*custom swiper styles*/
 
-.swiper {
+.swiperA {
     text-align: center;
     margin-left: clamp(4rem,5vw,10rem);
     margin-right: clamp(4rem,5vw,10rem);
@@ -1344,22 +1296,38 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     padding-bottom: clamp(1rem, 3vh, 8rem);
 }
 
-.swiper-wrapper {
+.swiper-wrapperA {
     max-width: 82rem;
     margin-bottom: 2rem;
 }
 
-.swiper-button-prev {
+.swiper-button-prevA {
+    /* display: none; */
     color: var(--primary);
 }
 
-.swiper-button-next {
+.swiper-button-nextA{
+    /* display: none; */
     color: var(--primary);
 }
 
 
 .swiper-pagination-bullet-active {
     background-color: var(--primary);
+}
+
+@media  screen and (min-width:768px) {
+
+    .swiper-button-prevA {
+        display: inline-block;
+        color: var(--primary);
+    }
+    
+    .swiper-button-nextA {
+        display: inline-block;
+        color: var(--primary);
+    }
+    
 }
 
 
@@ -1375,6 +1343,10 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     justify-content: flex-start;
     align-items: center;
 
+}
+
+.testimonials-container {
+    text-align: center;
 }
    
    
@@ -1398,4 +1370,140 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
    
 .upside-down {
     transform: rotate(180deg);
+}
+
+
+
+/* PRICE PLANS - SWIPE */
+
+.priceplan-section {
+    padding-left: clamp(1rem,5vh, 10rem);
+    padding-right: clamp(1rem, 5vh, 8rem);
+}
+
+.priceplan-container-swipe {
+    text-align: center;
+}
+
+.swiper-button-prev {
+    color: var(--primary);
+}
+
+.swiper-button-next{
+    color: var(--primary);
+}
+
+
+
+
+/* PRICE PLANS - STATIC */
+
+.priceplan-container-static {
+    display: none;
+    text-align: center;
+}
+
+.priceplan-static-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: scroll;
+    max-width: 160rem;
+    margin: 0 auto;
+
+}
+
+.static-card {
+    
+}
+
+@media screen and (min-width:1250px) {
+
+    .priceplan-container-static {
+        display: block;
+    }
+
+    .priceplan-container-swipe {
+        display: none;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* price card */
+.card {
+    max-width:33rem;
+    background-color: #ffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 1.5rem var(--primary);
+    margin:2rem auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+
+}
+
+.card-header {
+    background-color: #9F8268;
+    padding: 1rem 0;
+    color: #ffff;
+}
+
+.card-title {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.large {
+    font-size: 4rem;
+}
+
+.card-subtitle {
+    text-align: center;
+}
+
+.card-body-list {
+font-size: 1.5rem;
+
+}
+
+.card-body-list-item {
+    margin-bottom:2rem;
+    list-style-image: url(/images/price-list-tick.svg);
+    text-align: start;
+
+}
+
+.card-button {
+    background-color: var(--primary);
+    border:none;
+    color:#ffff;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 10px;
 }
