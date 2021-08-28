@@ -13,7 +13,8 @@
     <script src="https://kit.fontawesome.com/49dafdb3d2.js" crossorigin="anonymous"></script>
     <!--swiper.css-->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-
+    <!--Scroll bar library-->
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
     <!--my css-->
     <link rel="stylesheet" href="/styles.css">
 </head>
@@ -340,7 +341,7 @@
                         <img class="howto-image" src="/images/howto-smallscreen.svg" alt="">
                     </div>
 
-                    <div class="howto-list-container">
+                    <div class="howto-list-container" data-simplebar data-simplebar-auto-hide="false">
                         <div class="howto-list">
 
                             <div class="btn-howto">
@@ -492,7 +493,12 @@
         <!--Testimonial section-->
 
         <div class="testimonials-section">
+
             <div class="testimonials-container swiper">
+
+                <div class="whyus-intro">
+                    <h1>TESTIMONIALS</h1>
+                </div>
 
                 <div class="testimonials-slider swiper-wrapper">
 
@@ -557,6 +563,9 @@
     </main>
     <!--swiper.js-->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--scroll bar functionality-->
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <!--my js-->
     <script src="/app.js"></script>
 </body>
 </html>
