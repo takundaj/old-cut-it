@@ -89,17 +89,64 @@ loop()
 
 
 
-//sign in form validation
+//Sign In Form Validation
 
 
 
 
 
 
-//Features section - collapsibles (feature items) - TODO
+//Features Button Collapsible Functionality (feature items) - TODO
+
+const featureButtonsContainer = document.querySelector('.features-buttons')
+const featuresButtonsArray = document.querySelectorAll('.btn-feature')
+const featureIconContainersArray = document.querySelectorAll('.feature-icon-container')
+const featureIconImageArray = document.querySelectorAll('.feature-icon')
+const featureDescriptionArray = document.querySelectorAll('.feature-description')
+
+featuresButtonsArray.forEach( button => {
 
 
+    button.addEventListener('click', event => {
 
+    
+        if (button.classList.contains('0')) {
+
+            featureDescriptionArray.forEach(description, index => {
+                description.classList.remove('feature-description-open')
+            })
+            
+            featureDescriptionArray[0].classList.toggle('feature-description-open')
+    
+        } 
+    
+        if (button.classList.contains('1')) {
+    
+            featureDescriptionArray[1].classList.toggle('feature-description-open')
+    
+        }
+    
+        if (button.classList.contains('2')) {
+    
+            featureDescriptionArray[2].classList.toggle('feature-description-open')
+    
+        }
+    
+        if (button.classList.contains('3')) {
+    
+            featureDescriptionArray[3].classList.toggle('feature-description-open')
+    
+        }
+    
+        if (button.classList.contains('4')) {
+    
+            featureDescriptionArray[4].classList.toggle('feature-description-open')
+    
+        }
+
+    })
+
+})
 
 
 
