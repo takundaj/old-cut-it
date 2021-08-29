@@ -250,35 +250,6 @@ p {
 /* scroll bar */
 
 
-
-/* Footer */
-
-/*INVERTED APPSTORE (FOOTER0*/
-.btn-appstore-inverted {
-    max-width: 25rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    padding: 0.75rem;
-    margin: 1rem;
-    color: var(--secondary);
-    background: transparent;
-    border: 2px solid var(--secondary);
-}
-
-.appstore-description-inverted {
-    font-weight: 500;
-    font-size: 1.2rem;
-    letter-spacing: 0.5px;
-}
-
-.appstore-name-inverted {
-    font-size: 2rem;
-    font-weight: 400;
-}
-
 /* SECTION */
 
 .section {
@@ -1573,4 +1544,136 @@ font-size: 1.5rem;
         display: flex;
     }
     
+}
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: var(--accent);
+}
+
+
+/*FOOTER GRID*/
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.footer-links-section > ul {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links-section > ul > li {
+    list-style: none;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links:hover {
+    color: var(--primary);
+}
+
+
+
+
+
+.footer-appstore-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-socials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+/*INVERTED APPSTORE (FOOTER0*/
+.btn-appstore-inverted {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin: 1rem;
+    color: var(--secondary);
+    background: transparent;
+    border: 2px solid var(--secondary);
+}
+
+.appstore-description-inverted {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.appstore-name-inverted {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .footer-links-section > ul {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer-links-section > ul > li {
+        margin: 1rem 2rem;
+    }
+    
+
+    .footer-appstore-section {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .footer-logo-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+    
+    .footer-socials-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    
+    }
+
+    .btn-appstore-inverted {
+        margin: 1rem 2rem;
+    }
+
+    .footer-grid {
+        margin-left: clamp(5%, 5% ,10%);
+        margin-right: clamp(5%, 5% ,10%);
+    }
+
 }
