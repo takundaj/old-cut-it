@@ -911,7 +911,7 @@ display: none;
 
 .howto-list-container {
     height: 34rem;
-    width: clamp(35rem, 40vw, 50rem);
+    width: 90%;
     padding-right: 1rem;
     display: flex;
     flex-direction: column;
@@ -988,7 +988,7 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
 
 
 
-@media screen and  (min-width:768px) {
+@media screen and  (min-width:900px) {
     
     .howto-grid {
         grid-template-columns: 1fr 1fr;
@@ -1055,13 +1055,13 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     grid-row: 3/4;
 }
 
-@media screen and  (min-width:768px) {
+@media screen and  (min-width:900px) {
 
     .appstore-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 0.5fr;
-        grid-gap: 0rem;
+        grid-gap: 1rem;
     }
     
     .appstore-grid-text {
@@ -1085,6 +1085,7 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
 /*App store buttons*/
 .btn-appstore{
     max-width: 20rem;
+    height: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -1516,9 +1517,7 @@ font-size: 1.5rem;
 
 }
 
-.FAQ-text > h2, h3, p {
-    margin-bottom: 2rem;
-}
+
 
 
 /* FAQ BUTTONS*/
