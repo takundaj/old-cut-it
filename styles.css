@@ -1637,6 +1637,10 @@ footer {
     font-weight: 400;
 }
 
+.footer-appstore-name {
+    font-size: clamp(1.6rem, 2vw, 2rem);
+}
+
 @media screen and (min-width:1024px) {
     
     .footer-links-section > ul {
