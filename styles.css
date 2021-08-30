@@ -622,7 +622,6 @@ p {
 
 .features-intro {
     text-align: center;
-    margin-bottom: clamp(4rem, 5vh, 15rem);
     margin-left: clamp(2rem,5vw,8rem);
     margin-right: clamp(2rem,5vw,8rem);
 
@@ -641,7 +640,6 @@ p {
 }
 
 .features-buttons {
-    margin-top: 5%;
     display: grid;
     place-items: center;
     width: 100%;
@@ -649,7 +647,7 @@ p {
 
 .features-image {
     display: none;
-    width: clamp(15rem, 40vw, 40rem);
+    width: clamp(15rem, 40vw, 30rem);
     margin: 0;
     padding: 0;
 }
