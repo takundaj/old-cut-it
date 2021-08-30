@@ -1640,12 +1640,12 @@ footer {
 }
 
 .appstore-name-inverted {
-    font-size: clamp(1.6rem, 2vw, 2rem);
+    font-size: clamp(1.2rem, 2vw, 2rem);
     font-weight: 400;
 }
 
 .footer-appstore-name {
-    font-size: clamp(1.6rem, 2vw, 2rem);
+    font-size: clamp(1.2rem, 2vw, 2rem);
 }
 
 @media screen and (min-width:1024px) {
