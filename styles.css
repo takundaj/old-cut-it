@@ -1400,7 +1400,7 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     overflow: hidden;
     box-shadow: 0 0 1.5rem var(--primary);
     margin:2rem auto;
-    min-width: 32rem;
+    min-width: 30rem;
 }
 
 .card-body {
@@ -1453,6 +1453,10 @@ font-size: 1.5rem;
 }
 
 @media screen and (min-width:900px) {
+
+    .card {
+        min-width: 30rem;
+    }
 
     .static-card {
         margin: 2rem 1rem;
