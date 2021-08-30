@@ -624,6 +624,7 @@ p {
     text-align: center;
     margin-left: clamp(2rem,5vw,8rem);
     margin-right: clamp(2rem,5vw,8rem);
+    margin-bottom: clamp(2rem, 3vh, 4rem );
 
 }
 
@@ -659,7 +660,7 @@ p {
     background-color: var(--primary);
     border-radius: 15px;
     padding: 0.75rem;
-    margin: 1rem auto;
+    margin: 0.75rem auto;
     box-shadow: 0 0 1rem var(--primary);
     width: 90%;
     max-width:73rem;
@@ -911,7 +912,6 @@ display: none;
     align-items: center;
     grid-row: 2/3;
     grid-column: 1/2;
-
 }
 
 .howto-list {
@@ -957,6 +957,7 @@ display: none;
     
     color: var(--primary);
 }
+
 
 .howto-icon {
     font-size: clamp(2rem, 2vw, 4rem);
@@ -1033,6 +1034,7 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     }
 
     .howto-list {
+
     }
     
     .appstore-section {
