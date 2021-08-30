@@ -110,9 +110,10 @@ p {
 }
 
 .dropdown {
+    display: none;
     background-color: #ffff;
     opacity: 0%;
-    max-height: 0;
+    max-height: 0%;
 
 }
 
@@ -196,7 +197,7 @@ p {
 /* icons */
 
 .social-icon {
-    font-size: 5rem;
+    font-size: clamp(4rem, 5vw, 5rem);
     margin:0 1rem;
 }
 
@@ -610,6 +611,7 @@ p {
 }
 
 .features-container {
+    width:90%;
     margin-left: clamp(2rem,5vw, 5rem);
     margin-right: clamp(2rem,5vw, 5rem);
     padding-top: clamp(4rem, 5vh, 15rem);
@@ -1580,6 +1582,7 @@ footer {
 .footer-links {
     text-decoration: none;
     color: black;
+
 }
 
 .footer-links:hover {
@@ -1633,7 +1636,7 @@ footer {
 }
 
 .appstore-name-inverted {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 2vw, 2rem);
     font-weight: 400;
 }
 
