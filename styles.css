@@ -474,8 +474,8 @@ p {
 
 .email-form {
     text-align: center;
-    margin-top: clamp(2rem, 3vw, 5rem);
-    margin-bottom: clamp(2rem, 3vw, 5rem);
+    margin-top: clamp(2rem, 2vw, 4rem);
+    margin-bottom: clamp(2rem, 2vw, 4rem);
 }
 
 .form-discription {
@@ -658,13 +658,17 @@ p {
 /* feature buttons */
 .btn-feature{
     width: clamp(30rem, 50vw, 73rem);
-    background-color: white;
+    background-color: var(--primary);
     border-radius: 15px;
     padding: 0.75rem;
     margin: 1rem auto;
     box-shadow: 0 0 1rem var(--primary);
     width: 90%;
     max-width:73rem;
+}
+
+.btn-feature-selected {
+    background-color: white;
 }
 
 .btn-feature-container {
@@ -679,22 +683,34 @@ p {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50px;
-    background-color: #ffff;
+    background-color: var(--accent);
     margin: 0 1rem;
     margin-right:5%;
-    border: 3.5px solid var(--primary);
+    border: none;;
     display: grid;
     place-items: center;
 }
 
+.feature-icon-container-selected {
+    background-color: var(--primary);
+}
+
 .feature-icon {
-    color: var(--primary);
+    color: black;
+}
+
+.feature-icon-selected {
+    color: var(--accent);
 }
 
 .feature-title {
-    color: black;
+    color: #ffff;
     font-weight: 400;
     font-size: (1.4rem, 1vw , 2rem );
+}
+
+.feature-title-selected {
+    color: black;
 }
 
 .feature-seperator {
@@ -718,9 +734,14 @@ display: none;
 /* OPEN FEATURE */
 .feature-description-open {
     display: inline-block;
+    color: black;
 }
 
 @media  screen and (min-width: 768px) {
+
+    .features-container {
+        width:auto;
+    }
 
     .features-grid {
         display:grid;
@@ -922,7 +943,10 @@ display: none;
     margin: 1rem 0;
     box-shadow: 0 0 1rem var(--primary);
     text-align: start;
+}
 
+.btn-howto-selected {
+    background-color: var(--primary);
 }
 
 .howto-icon-container {
@@ -932,8 +956,30 @@ display: none;
     background-color: var(#ffff);
     margin: 0 1rem;
     margin-right:5%;
-    border: 1px solid var(--primary);
+    
     color: var(--primary);
+}
+
+.howto-icon {
+    font-size: clamp(2rem, 2vw, 4rem);
+    padding: 2%;
+}
+
+.howto-icon-selected {
+    color: #ffff;
+}
+
+.howto-text > p {
+    color: inherit;
+}
+
+.howto-text > h3 {
+    font-size: clamp(1.4rem, 1.2vw, 1.8rem);
+    color: inherit;
+}
+
+.howto-text-selected {
+    color: #ffff;
 }
 
 .howto-title {
@@ -1355,6 +1401,7 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
 .priceplan-static-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     max-width: 160rem;
     margin: 0 auto;
     overflow-x: auto;
