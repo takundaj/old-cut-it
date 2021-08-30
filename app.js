@@ -669,10 +669,3 @@ faqButtonsArray.forEach(button => {
 
 
 
-
-
-
-//scroll
-new SimpleBar(document.getElementById('myElement'), {
-    direction: 'rtl'
-  });

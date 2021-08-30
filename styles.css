@@ -476,6 +476,7 @@ p {
     text-align: center;
     margin-top: clamp(2rem, 2vw, 4rem);
     margin-bottom: clamp(2rem, 2vw, 4rem);
+    
 }
 
 .form-discription {
@@ -502,6 +503,7 @@ p {
     border: none;
     outline: none;
     padding: 1rem 2rem;
+    margin-bottom: 5rem;
 }
 
 .button {
