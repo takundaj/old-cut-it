@@ -1136,6 +1136,10 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     font-weight: 400;
 }
 
+.margin-appstore {
+    margin: 1.5rem;
+}
+
 
 
 /* DATA SECTION */
@@ -1404,7 +1408,6 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
     justify-content: center;
     max-width: 160rem;
     margin: 0 auto;
-    overflow-x: auto;
 }
 
 
@@ -1413,7 +1416,8 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
 
     .priceplan-container-static {
         display:grid;
-        place-items: center;
+        place-items: centre;
+
     }
 
     .priceplan-container-swipe {
@@ -1591,6 +1595,10 @@ font-size: 1.5rem;
     display: inline-block;
 }
 
+.margin {
+ margin-bottom:clamp(1rem, 3vh, 4rem);
+}
+
 .faq-icon {
     color:#ffff;
     font-size: 3rem;
@@ -1612,6 +1620,7 @@ font-size: 1.5rem;
 }
 
 
+
 .bold {
     font-weight:600;
 }
@@ -1624,6 +1633,8 @@ font-size: 1.5rem;
 .contact-body {
     margin: 1.5rem auto;
 }
+
+
 
 @media screen and (min-width:768px) {
 
@@ -1649,6 +1660,8 @@ footer {
     background-color: var(--accent);
     padding-top: clamp(3%, 4% ,5%);
     padding-bottom: clamp(3%, 4% ,5%);
+    padding-left: clamp(3%, 4% ,5%);
+    padding-right: clamp(3%, 4% ,5%);
 }
 
 
@@ -1688,20 +1701,21 @@ footer {
 .footer-appstore-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .footer-logo-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .footer-socials-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
 }
 
@@ -1743,6 +1757,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        padding: 0;
     }
 
     .footer-links-section > ul > li {
