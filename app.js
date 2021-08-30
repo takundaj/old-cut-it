@@ -141,7 +141,7 @@ featuresButtonsArray.forEach( button => {
 
     button.addEventListener('click', event => {
 
-    
+        //button 1
         if (button.classList.contains('0') && !button.classList.contains('btn-feature-selected')) {
             
             button.classList.toggle('btn-feature-selected')
@@ -188,8 +188,16 @@ featuresButtonsArray.forEach( button => {
 
 
     
-        } 
+        } else if (button.classList.contains('0') && button.classList.contains('btn-feature-selected')) {
+
+            button.classList.toggle('btn-feature-selected')
+            featureDescriptionArray[0].classList.toggle('feature-description-open')
+            featureTitlesArray[0].classList.toggle('feature-title-selected')
+            featureIconContainersArray[0].classList.toggle('feature-icon-container-selected')
+            featureIconImageArray[0].classList.toggle('feature-icon-selected')
+        }
     
+        //button 2
         if (button.classList.contains('1') && !button.classList.contains('btn-feature-selected')) {
 
             button.classList.toggle('btn-feature-selected')
@@ -234,9 +242,16 @@ featuresButtonsArray.forEach( button => {
                 }
             })
 
+        } else if (button.classList.contains('1') && button.classList.contains('btn-feature-selected')) {
+
+            button.classList.toggle('btn-feature-selected')
+            featureDescriptionArray[1].classList.toggle('feature-description-open')
+            featureTitlesArray[1].classList.toggle('feature-title-selected')
+            featureIconContainersArray[1].classList.toggle('feature-icon-container-selected')
+            featureIconImageArray[1].classList.toggle('feature-icon-selected')
         }
 
-    
+        //button 3
         if (button.classList.contains('2') && !button.classList.contains('btn-feature-selected')) {
 
             button.classList.toggle('btn-feature-selected')
@@ -282,8 +297,16 @@ featuresButtonsArray.forEach( button => {
             })
             
     
+        } else if (button.classList.contains('2') && button.classList.contains('btn-feature-selected')) {
+
+            button.classList.toggle('btn-feature-selected')
+            featureDescriptionArray[2].classList.toggle('feature-description-open')
+            featureTitlesArray[2].classList.toggle('feature-title-selected')
+            featureIconContainersArray[2].classList.toggle('feature-icon-container-selected')
+            featureIconImageArray[2].classList.toggle('feature-icon-selected')
         }
     
+        //button 4
         if (button.classList.contains('3') && !button.classList.contains('btn-feature-selected')) {
     
             button.classList.toggle('btn-feature-selected')
@@ -329,9 +352,16 @@ featuresButtonsArray.forEach( button => {
                 }
             })
     
+        } else if (button.classList.contains('3') && button.classList.contains('btn-feature-selected')) {
+
+            button.classList.toggle('btn-feature-selected')
+            featureDescriptionArray[3].classList.toggle('feature-description-open')
+            featureTitlesArray[3].classList.toggle('feature-title-selected')
+            featureIconContainersArray[3].classList.toggle('feature-icon-container-selected')
+            featureIconImageArray[3].classList.toggle('feature-icon-selected')
         }
 
-
+        //button 5
         if (button.classList.contains('4') && !button.classList.contains('btn-feature-selected')) {
     
             button.classList.toggle('btn-feature-selected')
@@ -377,6 +407,13 @@ featuresButtonsArray.forEach( button => {
                 }
             })
 
+        } else if (button.classList.contains('4') && button.classList.contains('btn-feature-selected')) {
+
+            button.classList.toggle('btn-feature-selected')
+            featureDescriptionArray[4].classList.toggle('feature-description-open')
+            featureTitlesArray[4].classList.toggle('feature-title-selected')
+            featureIconContainersArray[4].classList.toggle('feature-icon-container-selected')
+            featureIconImageArray[4].classList.toggle('feature-icon-selected')
         }
 
 

@@ -1412,7 +1412,8 @@ body > main > section.howto-section > div > div.howto-grid > div.howto-list-cont
 @media screen and (min-width:900px) {
 
     .priceplan-container-static {
-        display:block;
+        display:grid;
+        place-items: center;
     }
 
     .priceplan-container-swipe {
