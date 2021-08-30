@@ -583,3 +583,49 @@ howToButtonsArray.forEach( button => {
     })
 
 })
+
+
+
+const faqButtonsArray = document.querySelectorAll('.btn-faq')
+const faqSeperatorsArray = document.querySelectorAll('.faq-seperator')
+const faqBodyArray = document.querySelectorAll('.btn-faq-body')
+const faqIconsArray = document.querySelectorAll('.faq-icon')
+
+faqButtonsArray.forEach(button => {
+
+    button.addEventListener('click', event => {
+
+        if (button.classList.contains(0)) {
+            faqButtonsArray[0].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[0].classList.toggle('faq-sepeator-open')
+            faqBodyArray[0].classList.toggle('btn-faq-body-open')
+            faqIconsArray[0].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(1)) {
+            faqButtonsArray[1].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[1].classList.toggle('faq-sepeator-open')
+            faqBodyArray[1].classList.toggle('btn-faq-body-open')
+            faqIconsArray[1].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(2)) {
+            faqButtonsArray[2].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[2].classList.toggle('faq-sepeator-open')
+            faqBodyArray[2].classList.toggle('btn-faq-body-open')
+            faqIconsArray[2].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(3)) {
+            faqButtonsArray[3].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[3].classList.toggle('faq-sepeator-open')
+            faqBodyArray[3].classList.toggle('btn-faq-body-open')
+            faqIconsArray[3].classList.toggle('faq-icon-open')
+        }
+
+
+
+
+    })
+
+})

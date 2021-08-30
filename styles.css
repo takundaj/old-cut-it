@@ -1545,16 +1545,49 @@ font-size: 1.5rem;
 
 
 /* FAQ BUTTONS*/
-.btn-faq{
+.btn-faq {
+    display: grid;
+    background-color: var(--primary);
+    border-radius: 10px;
+    margin: 1rem;
+
+    overflow: hidden;
+}
+
+.btn-faq-open {
+    background-color: var(--primary);
+    opacity: 0.9;
+}
+
+.btn-faq-header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background-color: var(--primary);
-    border-radius: 10px;
     padding: 0.75rem;
-    margin: 1rem;
     box-shadow: 0 0 0.75rem var(--primary);
+}
+
+.faq-seperator {
+    display: none;
+    text-align: center;
+    width: 75%;
+}
+
+.faq-sepeator-open {
+    display: inline-block;
+}
+
+.btn-faq-body {
+    display: none;
+    margin: 1rem;
+    color: #ffff;
+    padding: 0rem 2.5rem 1.5rem 5rem ;
+    text-align: start ;
+}
+
+.btn-faq-body-open {
+    display: inline-block;
 }
 
 .faq-icon {
@@ -1565,10 +1598,17 @@ font-size: 1.5rem;
     margin-right:5%;
 }
 
-.faq-title {
+.faq-icon-open {
+    color: var(--accent);
+}
+
+.faq-question {
     color:#ffff;
 }
 
+.faq-answer {
+
+}
 
 
 .bold {
