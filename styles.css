@@ -1055,7 +1055,7 @@ body
   }
 
   .appstore-grid-text > p {
-    margin: 2rem 0;
+    margin-bottom: 2rem;
   }
 }
 
@@ -1073,7 +1073,7 @@ body
 
 /*App store buttons*/
 .btn-appstore {
-  max-width: 20rem;
+  width: 20rem;
   height: 6rem;
   display: flex;
   flex-direction: row;
@@ -1108,6 +1108,12 @@ body
 
 .margin-appstore {
   margin: 1.5rem;
+}
+
+@media screen (min-width:900px) {
+  .btn-appstore {
+    margin: 1rem;
+  }
 }
 
 /* DATA SECTION */
@@ -1344,6 +1350,8 @@ body
 .priceplan-container-static {
   display: none;
   text-align: center;
+  max-width: 130rem;
+  overflow-x: scroll;
 }
 
 .priceplan-static-wrapper {
