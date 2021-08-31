@@ -80,6 +80,7 @@ p {
 }
 
 .logo {
+  font-size: clamp(3rem, 3vw, 6rem);
   margin: 0;
 }
 
@@ -1369,12 +1370,14 @@ body
   justify-content: center;
   max-width: 160rem;
   margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 900px) {
   .priceplan-container-static {
     display: grid;
     place-items: centre;
+    margin: auto;
   }
 
   .priceplan-container-swipe {
