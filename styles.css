@@ -1692,10 +1692,11 @@ footer {
 
 /*INVERTED APPSTORE (FOOTER0*/
 .btn-appstore-inverted {
-  width: 15rem;
+  max-width: fit-content;
+  min-width: 20rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border-radius: 10px;
   padding: 0.75rem 1rem;
