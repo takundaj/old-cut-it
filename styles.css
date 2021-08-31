@@ -1209,9 +1209,14 @@ body
   font-size: 1.6rem;
 }
 
+.data-number {
+  font-size: clamp(1.8rem, 2vw, 2rem);
+}
+
 .data-description {
   font-size: 1.4rem;
   margin-top: 0%;
+  margin-bottom: 1rem;
 }
 
 .happy-customers {
