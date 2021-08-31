@@ -1593,6 +1593,7 @@ body
   flex-direction: column;
   align-items: flex-start;
   width: 80%;
+  margin-bottom: 1rem;
 }
 
 .contact-form-message {
