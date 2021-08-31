@@ -869,6 +869,7 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 1fr 0.5fr;
   place-items: center;
+  grid-row-gap: 2rem;
 }
 
 .howto-image-container {
@@ -993,6 +994,7 @@ body
     grid-template-rows: 1fr 0.5fr;
     margin-left: clamp(4rem, 5vw, 10rem);
     margin-right: clamp(4rem, 5vw, 10rem);
+    grid-row-gap: 0rem;
   }
 
   .howto-image {
