@@ -681,7 +681,7 @@ emailFormTextField.addEventListener('keyup', event => {
     if (!pattern.test(userInput)) {
         emailFormTextFieldContainer.style.boxShadow = "0 0 0.5rem rgba(255, 0, 11)";
     } else {
-        emailFormTextFieldContainer.style.boxShadow = "0 0 0.75rem rgba(13, 247, 112)";
+        emailFormTextFieldContainer.style.boxShadow = "0 0 0.75rem rgba(79, 229, 143)";
     }
 
     if (emailFormTextField.value === "") {
