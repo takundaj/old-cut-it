@@ -133,6 +133,7 @@ const featureIconContainersArray = document.querySelectorAll('.feature-icon-cont
 const featureIconImageArray = document.querySelectorAll('.feature-icon')
 const featureDescriptionArray = document.querySelectorAll('.feature-description')
 const featureTitlesArray = document.querySelectorAll('.feature-title')
+const featuresIphoneImage = document.querySelector('.features-image')
 
 
 featuresButtonsArray.forEach( button => {
@@ -148,6 +149,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[0].classList.toggle('feature-title-selected')
             featureIconContainersArray[0].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[0].classList.toggle('feature-icon-selected')
+            featuresIphoneImage.setAttribute('src','/images/iphone-booking.png')
 
             //DESELECT
 
@@ -204,6 +206,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[1].classList.toggle('feature-title-selected')
             featureIconContainersArray[1].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[1].classList.toggle('feature-icon-selected')
+            featuresIphoneImage.setAttribute('src','/images/iphone.svg')
 
                         //DESELECT
 
@@ -258,6 +261,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[2].classList.toggle('feature-title-selected')
             featureIconContainersArray[2].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[2].classList.toggle('feature-icon-selected')
+            featuresIphoneImage.setAttribute('src','/images/iphone-connect.png')
 
                         //DESELECT
 
@@ -303,6 +307,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[2].classList.toggle('feature-title-selected')
             featureIconContainersArray[2].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[2].classList.toggle('feature-icon-selected')
+            
         }
     
         //button 4
@@ -313,6 +318,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[3].classList.toggle('feature-title-selected')
             featureIconContainersArray[3].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[3].classList.toggle('feature-icon-selected')
+            featuresIphoneImage.setAttribute('src','/images/iphone.svg')
 
             
             //DESELECT
@@ -368,6 +374,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[4].classList.toggle('feature-title-selected')
             featureIconContainersArray[4].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[4].classList.toggle('feature-icon-selected')
+            featuresIphoneImage.setAttribute('src','/images/iphone-build-following.png')
 
         
             //DESELECT
