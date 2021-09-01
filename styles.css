@@ -48,6 +48,10 @@ p {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
+a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, .btn-appstore:hover ,.btn-howto:hover, .btn-feature:hover, .btn-faq:hover  {
+  cursor: pointer;
+}
+
 .brown {
   color: var(--primary);
 }
@@ -468,8 +472,9 @@ p {
   margin-bottom: clamp(2rem, 2vw, 4rem);
 }
 
-.form-discription {
+.form-description {
   margin-bottom: 1rem;
+  font-size: clamp(1.8rem, 2vw, 3rem);
 }
 
 .textfield-container {
