@@ -86,7 +86,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 }
 
 .logo {
-  font-size: clamp(3rem, 3vw, 6rem);
+  width: 7rem;
   margin: 0;
 }
 
@@ -1441,7 +1441,7 @@ body
 }
 
 .card-body-list {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .card-body-list-item {
