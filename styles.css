@@ -1586,8 +1586,9 @@ body
   border-radius: 8px;
   border: 1px solid var(--primary);
   padding: 1rem;
+  outline: none;
 }
-
+ 
 .contact-form-container {
   display: flex;
   flex-direction: column;
@@ -1603,6 +1604,14 @@ body
   border-radius: 8px;
   border: 1px solid var(--primary);
   padding: 1rem;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-form-message:focus, .contact-input:focus {
+
+  box-shadow: 0 0 0.5rem var(--primary);
+
 }
 
 .contact-form-container > label {

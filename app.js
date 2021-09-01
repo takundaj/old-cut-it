@@ -90,7 +90,6 @@ loop()
 
 
 
-
 //swiper funtionality - testimonials
 
 const swiper = new Swiper('.swiper', {
@@ -666,6 +665,46 @@ faqButtonsArray.forEach(button => {
     })
 
 })
+
+
+//subscription email validation
+const emailForm = document.querySelector('.email-form');
+const emailFormTextFieldContainer = document.querySelector('#mc-embedded-subscribe-form > div.textfield-container');
+const emailFormTextField = document.querySelector('#mce-EMAIL');
+
+
+emailFormTextField.addEventListener('keyup', event => {
+    
+    const pattern = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const userInput = emailFormTextField.value;
+
+    if (!pattern.test(userInput)) {
+        emailFormTextFieldContainer.style.boxShadow = "0 0 0.5rem rgba(255, 0, 11)";
+    } else {
+        emailFormTextFieldContainer.style.boxShadow = "0 0 0.75rem rgba(13, 247, 112)";
+    }
+
+    if (emailFormTextField.value === "") {
+        emailFormTextFieldContainer.style.boxShadow = "0 0 1rem var(--primary)";
+    }
+
+})
+
+
+
+function restoreTextFieldAura() {
+    if (emailFormTextField.value === "") {
+        emailFormTextFieldContainer.style.boxShadow = "0 0 1rem var(--primary)";
+    }
+}
+
+emailForm.addEventListener('submit', () => {
+
+    setTimeout( restoreTextFieldAura, 5000)
+
+}) 
+
+
 
 
 
