@@ -669,3 +669,50 @@ faqButtonsArray.forEach(button => {
 
 
 
+// Send us a message functionality
+const contactForm = document.querySelector('#contact-form')
+const contactFormRepsonse = document.querySelector('.contact-form-response')
+
+contactForm.addEventListener('submit', event => {
+
+    event.preventDefault()
+
+// https://github.com/github/fetch
+fetch("https://formsubmit.co/ajax/tjnyamatore@gmail.com", {
+    method: "POST",
+    headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    },
+    body: JSON.stringify({
+        name: contactForm.name.value ,
+        email: contactForm.email.value ,
+        message: contactForm.message.value
+    })
+})
+    .then(response => {
+        response.json()
+        if (response.ok) {
+            contactFormRepsonse.style.display = "inline"
+            contactFormRepsonse.style.color = "green"
+            contactFormRepsonse.textContent = "Thank you, youre message has been sent"
+        } else {
+            contactFormRepsonse.style.display = "inline"
+            contactFormRepsonse.style.color = "red"
+            contactFormRepsonse.textContent = "Sorry, there was a problem. please use out email to the left."
+        }
+    })
+    
+    .then(data => console.log(data))
+    
+    .catch(error => console.log(error));
+
+    contactFormRepsonse.style.color = "green"
+    contactFormRepsonse.textContent = "Thank you"
+
+
+})
+
+
+
+
