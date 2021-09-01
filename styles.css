@@ -1594,6 +1594,7 @@ body
   border: 1px solid var(--primary);
   padding: 1rem;
   outline: none;
+  margin-top: 0;
 }
  
 .contact-form-container {
@@ -1624,7 +1625,7 @@ body
 .contact-form-container > label {
   text-align: start;
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .contact-form-submit {
