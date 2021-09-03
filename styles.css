@@ -547,6 +547,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(/images/quote\ background.svg);
 }
 
 .quote-container {
@@ -762,6 +763,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(/images/why\ us\ background.svg);
 }
 
 .whyus-container {
@@ -1267,6 +1269,8 @@ body
   justify-content: center;
   padding-top: clamp(2rem, 4vh, 8rem);
   padding-bottom: clamp(1rem, 3vh, 8rem);
+  background-image: url(/images/testimonials\ background.svg);
+  object-fit: cover;
 }
 
 .testimonials-container {
@@ -1414,10 +1418,13 @@ body
 }
 
 .card-body {
+  height: 33rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding: 2rem 2rem;
+  padding-bottom: 3rem;
 }
 
 .card-header {
@@ -1441,7 +1448,7 @@ body
 }
 
 .card-body-list {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .card-body-list-item {
@@ -1477,6 +1484,8 @@ body
   justify-content: center;
   padding-top: clamp(2rem, 4vh, 8rem);
   padding-bottom: clamp(2rem, 4vh, 8rem);
+  background-image: url(/images/faq\ background.svg);
+  background-repeat: no-repeat;
 }
 
 .FC-section-container {
@@ -1506,7 +1515,6 @@ body
 
 .btn-faq-open {
   background-color: var(--primary);
-  opacity: 0.9;
 }
 
 .btn-faq-header {

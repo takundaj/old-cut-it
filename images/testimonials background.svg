@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1421" height="639" viewBox="0 0 1421 639">
+  <defs>
+    <clipPath id="clip-Artboard_4">
+      <rect width="1421" height="639"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_4" data-name="Artboard – 4" clip-path="url(#clip-Artboard_4)">
+    <rect width="1421" height="639" fill="#fff"/>
+    <g id="Group_280" data-name="Group 280" transform="translate(-126.719 -5897.257)">
+      <path id="Icon_ionic-ios-text" data-name="Icon ionic-ios-text" d="M96.819,4.5C45.2,4.5,3.375,38.284,3.375,79.974c0,29.156,20.486,54.449,50.451,67.028-2.336,11.591-9.434,21.115-15.05,27.18-1.033,1.123.09,2.92,1.617,2.83a72.281,72.281,0,0,0,22.912-5.705c9.659-4.448,18.1-13.522,20.8-16.577a119.6,119.6,0,0,0,12.8.719c51.619,0,93.444-33.784,93.444-75.474C190.264,38.284,148.438,4.5,96.819,4.5Z" transform="translate(293.729 5942.576)" fill="#fdf4ec" opacity="0.5"/>
+      <path id="Icon_ionic-md-text" data-name="Icon ionic-md-text" d="M157.348,4.5H18.718C8.942,4.5,4.5,12.5,4.5,22.273V175.121l28.437-28.437H157.348a17.824,17.824,0,0,0,17.773-17.773V22.273A17.824,17.824,0,0,0,157.348,4.5ZM64.217,83.59H47.155V65.817H64.217Zm34.124,0H81.279V65.817H98.342Zm34.124,0H115.4V65.817h17.062Z" transform="translate(1171.24 6311.317)" fill="#fdf4ec" opacity="0.503"/>
+    </g>
+  </g>
+</svg>
