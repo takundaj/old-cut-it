@@ -86,8 +86,9 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 }
 
 .logo {
-  width: 7rem;
+  max-width: 7rem;
   margin: 0;
+  margin-right: auto;
 }
 
 .nav-link {
@@ -178,8 +179,10 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   border: none;
   max-height: 3.5rem;
   border-radius: 50px;
-  padding: 0.75rem 1.25rem;
+  padding: 1rem 1.5rem;
   margin: 0.25rem;
+  margin-left: 2rem;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -188,6 +191,10 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   }
 
   .subscribe-btn {
+    display: inline-block;
+  }
+
+  .subscribe-btn-link {
     display: inline-block;
   }
 
@@ -226,20 +233,20 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 .btn {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   color: #ffff;
   background-color: var(--primary);
   border: none;
   font-size: clamp(1.3rem, 2vw, 1.5rem);
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   margin: 0.25rem;
   border-radius: 20px;
 }
 
 .btn-cta {
-  max-height: 4rem;
   border-radius: 50px;
-  padding: 1rem 2.5rem;
+  padding: 1.25rem 2rem;
   letter-spacing: 0.5px;
 }
 
@@ -323,7 +330,6 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   border: none;
   border-radius: 50px;
   margin: 3rem 0rem;
-  box-shadow: 0 0rem 0.5rem var(--secondary);
 }
 
 .hero-image {
