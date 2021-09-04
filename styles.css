@@ -106,6 +106,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 }
 
 .navbar-item {
+  font-size: clamp(1.2rem, 1vw, 1.6rem);
   list-style: none;
   margin: 0 2rem;
 }
@@ -1731,8 +1732,7 @@ footer {
 
 /*INVERTED APPSTORE (FOOTER0*/
 .btn-appstore-inverted {
-  max-width: fit-content;
-  min-width: 20rem;
+  width: 19.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
