@@ -1157,6 +1157,7 @@ body
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(/images/data\ background.png);
 }
 
 .data-section-container {
@@ -1542,6 +1543,7 @@ body
   display: none;
   text-align: center;
   width: 75%;
+  margin-bottom: 0;
 }
 
 .faq-sepeator-open {
@@ -1551,8 +1553,9 @@ body
 .btn-faq-body {
   display: none;
   margin: 1rem;
+  margin-top: 0;
   color: #ffff;
-  padding: 0rem 2.5rem 1.5rem 5rem;
+  padding: 0rem 2.5rem 1.5rem 6.5rem;
   text-align: start;
 }
 
@@ -1771,9 +1774,14 @@ footer {
 }
 
 .social-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.0.5);
   transition: all 0.5s;
 }
+
+.social-container > a {
+  color: #000000;
+}
+
 
 .fa-twitter:hover {
  color: rgb(0, 194, 219);
