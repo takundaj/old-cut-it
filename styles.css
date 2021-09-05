@@ -1427,7 +1427,6 @@ body
   overflow: hidden;
   box-shadow: 0 0 1.5rem var(--primary);
   margin: 2rem auto;
-  min-width: 32rem;
 }
 
 .card-body {
