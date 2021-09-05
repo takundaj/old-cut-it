@@ -1736,6 +1736,11 @@ footer {
   align-items: flex-start;
 }
 
+.footer-title {
+  font-size: clamp(4rem, 4vw, 6rem) ;
+}
+
+
 .footer-socials-section {
   display: flex;
   flex-direction: column;
