@@ -1382,12 +1382,27 @@ body
 }
 
 .swiper-button-prev {
+  display: none;
   color: var(--primary);
 }
 
 .swiper-button-next {
+  display: none;
   color: var(--primary);
 }
+
+@media screen and (min-width:400px) {
+
+  .swiper-button-prev {
+    display: inline-block;
+  }
+  
+  .swiper-button-next {
+    display: inline-block;
+  }
+
+}
+
 
 /* PRICE PLANS - STATIC */
 
