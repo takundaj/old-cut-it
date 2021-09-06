@@ -1764,7 +1764,7 @@ footer {
 
 /*INVERTED APPSTORE (FOOTER0*/
 .btn-appstore-inverted {
-  width: 19.5rem;
+  width: 19.25rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1775,6 +1775,10 @@ footer {
   color: var(--secondary);
   background: transparent;
   border: 2px solid var(--secondary);
+}
+
+.ios-footer-btn {
+  max-width: 17rem ;
 }
 
 .appstore-description-inverted {
@@ -1859,3 +1863,20 @@ footer {
     margin-right: clamp(5%, 5%, 10%);
   }
 }
+
+
+
+
+
+
+/* PRIVACY POLICY */
+
+.privacy-policy {
+  margin: 10rem 4rem;
+  text-align: center;
+}
+
+.privay-policy__body {
+  padding: 0 5vw;
+}
+
