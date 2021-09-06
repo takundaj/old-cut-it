@@ -621,7 +621,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   text-align: center;
   margin-left: clamp(2rem, 5vw, 8rem);
   margin-right: clamp(2rem, 5vw, 8rem);
-  margin-bottom: clamp(2rem, 2vh, 3rem);
+  margin-bottom: clamp(2rem, 5vh, 5rem);
 }
 
 .features-grid {
