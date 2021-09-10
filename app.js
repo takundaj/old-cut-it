@@ -741,11 +741,11 @@ fetch("https://formsubmit.co/ajax/tjnyamatore@gmail.com", {
         if (response.ok) {
             contactFormRepsonse.style.display = "inline"
             contactFormRepsonse.style.color = "green"
-            contactFormRepsonse.textContent = "Thank you, youre message has been sent"
+            contactFormRepsonse.textContent = "Thank you, your message has been sent!"
         } else {
             contactFormRepsonse.style.display = "inline"
             contactFormRepsonse.style.color = "red"
-            contactFormRepsonse.textContent = "Sorry, there was a problem. please use out email to the left."
+            contactFormRepsonse.textContent = "Sorry, there was a problem. please use our email to the left."
         }
     })
     
