@@ -108,7 +108,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 }
 
 .navbar-item {
-  font-size: clamp(1.2rem, 1vw, 1.5rem);
+  font-size: clamp(1.2rem, 0.9vw, 1.4rem);
   list-style: none;
   margin: 0 2rem;
 }
@@ -182,7 +182,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   border: none;
   max-height: 3.5rem;
   border-radius: 50px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   margin: 0.25rem;
   margin-left: 2rem;
   letter-spacing: 0.5px;
@@ -375,7 +375,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 .title-text-subtitle {
   margin-top: clamp(1.5rem, 1vh, 2rem);
   margin-bottom: clamp(2rem, 2vh, 4rem);
-  font-size: 1.8rem;
+  font-size: clamp(1.6rem, 2vw, 1.8rem);
   text-align: center;
 }
 
@@ -423,8 +423,8 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   }
 
   .hero-image {
-    width: 35rem;
-    margin: 0;
+    width: 32rem;
+    margin: 0 2rem;
     padding: 0;
   }
 
@@ -436,7 +436,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   .title-text-subtitle {
     max-width: 47rem;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .desktop-subtitle {
@@ -447,8 +447,8 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
     display: none;
   }
 
-  .download-button {
-    padding: 0.8rem 3rem;
+  .download-btn {
+    padding: 1.25rem 2.5rem;
   }
 
   .text-field-container {
@@ -1020,7 +1020,8 @@ body
   }
 
   .howto-image {
-    width: 50rem;
+  width: 50rem;
+
   }
 
   .howto-image-container {
@@ -1286,13 +1287,14 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: clamp(2rem, 4vh, 8rem);
+  padding-top: clamp(2rem, 6vh, 10rem);  /*unique*/
   padding-bottom: clamp(1rem, 3vh, 8rem);
   background-image: url(/images/testimonials\ background.svg);
   object-fit: contain;
 }
 
 .testimonials-container {
+
 }
 
 /*custom swiper styles*/
