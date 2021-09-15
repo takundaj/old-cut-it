@@ -15,7 +15,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   margin: 0;
-  line-height: 1.5;
   background-color: #ffff;
 }
 
@@ -404,7 +403,6 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 
   .title-text {
     text-align: start;
-    line-height: 0;
   }
 
   .title {
