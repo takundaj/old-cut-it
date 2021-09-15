@@ -348,7 +348,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .title-wrapper {
