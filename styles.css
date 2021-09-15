@@ -404,6 +404,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 
   .title-text {
     text-align: start;
+    line-height: 0;
   }
 
   .title {
