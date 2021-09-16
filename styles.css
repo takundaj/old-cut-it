@@ -1692,7 +1692,8 @@ body
 
 /*fix the contact inputs being off center in small screen sizes*/
 .contact-form-container > input, textarea {
-  max-width: 94.5%;
+  max-width: 93%;
+  margin: 0 auto
 }
 
 .contact-form-submit {
@@ -1713,6 +1714,11 @@ body
 
   .contact-form-container {
     width: 80%;
+  }
+
+  .contact-form-container > input, textarea {
+    max-width: 100%;
+
   }
 
   .FC-grid {
