@@ -1534,15 +1534,15 @@ body
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.75fr 1fr;
-  margin-left: clamp(3rem, 3vw, 5rem);
-  margin-right: clamp(3rem, 3vw, 5rem);
+  margin-left: clamp(1rem, 3vw, 5rem);
+  margin-right: clamp(1rem, 3vw, 5rem);
   padding-top: clamp(2rem, 3vh, 8rem);
   padding-bottom: clamp(2rem, 3vh, 8rem);
 }
 
 .FAQ-container {
-  margin-left: clamp(3rem, 3vw, 5rem);
-  margin-right: clamp(3rem, 3vw, 5rem);
+  margin-left: clamp(1rem, 3vw, 5rem);
+  margin-right: clamp(1rem, 3vw, 5rem);
 }
 
 /* FAQ BUTTONS*/
@@ -1635,7 +1635,7 @@ body
 }
 
 .contact-body {
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 .contact-form {
