@@ -1449,7 +1449,8 @@ body
   background-color: #ffff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 1.5rem var(--primary);
+  box-shadow: 0 0 0.5rem var(--primary);
+
   margin: 2rem auto;
 }
 
@@ -1501,6 +1502,13 @@ body
   margin: 0 auto;
   padding: 1rem 2rem;
   border-radius: 10px;
+}
+
+@media screen and (min-width:500px) {
+.card {
+  box-shadow: 0 0 1.5rem var(--primary);
+}
+
 }
 
 @media screen and (min-width: 900px) {
