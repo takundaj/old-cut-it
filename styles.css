@@ -285,7 +285,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   margin-left: clamp(2rem, 15vw, 35rem);
   margin-right: clamp(2rem, 15vw, 35rem);
   padding-top: clamp(5rem, 5vh, 8rem);
-  padding-bottom: clamp(5rem, 5vh, 8rem);
+  
 }
 
 .hero-grid {
@@ -293,6 +293,7 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   place-items: center;
   grid-template-columns: 2fr;
   grid-template-rows: repeat(3, fit-content);
+  padding-bottom: clamp(5rem, 5vh, 8rem);
 }
 
 .hero-grid-title-section {
