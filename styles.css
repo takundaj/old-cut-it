@@ -1584,7 +1584,7 @@ body
   margin: 1rem;
   margin-top: 0;
   color: #ffff;
-  padding: 0rem 2.5rem 1.5rem 6.5rem;
+  padding: 0rem 2.5rem 1.5rem 8vw;
   text-align: start;
 }
 
@@ -1624,6 +1624,12 @@ body
 .FAQ-container {
   margin-left: 1rem;
   margin-right: 2rem;
+}
+
+.btn-faq-body {
+
+  padding: 0rem 2.5rem 1.5rem 4vw;
+
 }
 
 }
