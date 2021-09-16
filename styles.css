@@ -1870,6 +1870,12 @@ footer {
  }
 
 
+ .site-credits {
+   grid-column: 1/3;
+   padding: 0;
+   margin:0;
+   font-size: clamp(1.2rem1vw, 1.4rem);
+ }
 
 @media screen and (min-width: 768px) {
   .btn-appstore-inverted {
