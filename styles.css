@@ -1540,6 +1540,11 @@ body
   padding-bottom: clamp(2rem, 3vh, 8rem);
 }
 
+.FAQ-container {
+  margin-left: clamp(3rem, 3vw, 5rem);
+  margin-right: clamp(3rem, 3vw, 5rem);
+}
+
 /* FAQ BUTTONS*/
 .btn-faq {
   display: grid;
@@ -1614,6 +1619,16 @@ body
   font-weight: 600;
 }
 
+@media screen and (min-width: 900px) {
+
+.FAQ-container {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+}
+ 
+
 .contact-container {
   flex-direction: column;
   padding-top: clamp(2rem, 5vh, 8rem);
@@ -1673,6 +1688,11 @@ body
   text-align: start;
   margin-left: 1rem;
   margin-bottom: 0.3rem;
+}
+
+/*fix the contact inputs being off center in small screen sizes*/
+.contact-form-container > input, textarea {
+  max-width: 94.5%;
 }
 
 .contact-form-submit {
