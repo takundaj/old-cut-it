@@ -180,12 +180,12 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   color: #ffff;
   background-color: var(--primary);
   border: none;
-  max-height: 3.5rem;
   border-radius: 50px;
   padding: 1rem 2rem;
   margin: 0.25rem;
   margin-left: 2rem;
   letter-spacing: 0.5px;
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -450,7 +450,8 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   }
 
   .download-btn {
-    padding: 1.25rem 2.5rem;
+    letter-spacing: 0.5px;
+    padding: 1.2rem 2rem;
   }
 
   .text-field-container {
@@ -518,9 +519,11 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   color: #fff;
   outline: none;
   border: none;
-  padding: 1rem 2rem;
+  padding: 1rem 1.75em;
   border-radius: 20px;
   margin: 0.1rem;
+  letter-spacing: 0.5px;
+  font-size: 1.4rem;
 }
 
 .textfield {
