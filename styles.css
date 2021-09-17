@@ -51,7 +51,7 @@ p {
 
 a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, .btn-appstore:hover ,.btn-howto:hover, .btn-feature:hover, .btn-faq:hover  {
   cursor: pointer;
-  transform: scale(1.01);
+  transform: scale(1.015);
   transition: transform 0.5s;
 }
 
