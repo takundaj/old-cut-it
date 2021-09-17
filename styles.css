@@ -1343,7 +1343,7 @@ body
 /* Testimonial component */
 
 .testimonial {
-  max-width: 84rem;
+  width: 100%;
   text-align: center;
   margin: auto;
   display: flex;
@@ -1353,6 +1353,7 @@ body
 }
 
 .testimonials-container {
+  width: 70%;
   text-align: center;
 }
 
@@ -1401,7 +1402,11 @@ body
   color: var(--primary);
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:550px) {
+
+  .priceplan-container-swipe {
+    width: 80%;
+  }
 
   .swiper-button-prev {
     display: inline-block;
