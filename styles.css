@@ -450,8 +450,8 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   }
 
   .download-btn {
-    letter-spacing: 0.5px;
-    padding: 1.2rem 2rem;
+    letter-spacing: 0.4px;
+    padding: 1.22rem 2rem;
   }
 
   .text-field-container {
