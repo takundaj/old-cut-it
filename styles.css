@@ -1879,7 +1879,7 @@ footer {
    grid-column: 1/3;
    padding: 0;
    margin:0;
-   font-size: clamp(1.2rem1vw, 1.4rem);
+   font-size: clamp(1.2rem, 1vw, 1.2rem);
  }
 
 @media screen and (min-width: 768px) {
@@ -1889,6 +1889,14 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+
+  .footer-links-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3%;
+  }
+
   .footer-links-section > ul {
     height: auto;
     display: flex;
@@ -1904,18 +1912,23 @@ footer {
   .footer-appstore-section {
     flex-direction: row;
     justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 2rem;
   }
 
   .footer-logo-section {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-end;
+    border-top: 1px solid black ;
   }
 
   .footer-socials-section {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    border-top: 1px solid black ;
   }
 
   .btn-appstore-inverted {
@@ -1925,6 +1938,10 @@ footer {
   .footer-grid {
     margin-left: clamp(5%, 5%, 10%);
     margin-right: clamp(5%, 5%, 10%);
+  }
+
+  .site-credits {
+    margin-top: 2%;
   }
 }
 
