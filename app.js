@@ -67,6 +67,10 @@ function loop() {
         if (j == jobsArray[i].length) {
             isEnd = true
             isDeleting = true
+            titleObject.style.borderRight = "none"
+            setTimeout(() => {titleObject.style.borderRight = "1px solid black"}, 500)
+            setTimeout(() => {titleObject.style.borderRight = "none"}, 1000)
+            setTimeout(() => {titleObject.style.borderRight = "1px solid black"}, 1500)
         }
 
         if (isDeleting && j === 0) {
