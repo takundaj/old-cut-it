@@ -206,7 +206,11 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
   }
 
   .dropdown {
-    display: none;
+    display: none !important;
+  }
+
+  .header-section {
+    box-shadow: none !important;
   }
 
   .margin-filler-active {
