@@ -1,7 +1,8 @@
-const header = document.querySelector('.header-section');
-const dropdown = document.querySelector('.dropdown');
+
 const topfiller = document.querySelector('.margin-filler');
-const menuButton = document.querySelector('.nav-menu-icon');
+const navbar = document.querySelector("nav");
+const navList = document.querySelector(".nav");
+const menuButton = document.querySelector(".nav-menu-icon");
 const priceSwiper = document.querySelector('.priceplan-container');
 const priceSwiperWrapper = document.querySelector('.priceplan-swiper');
 
@@ -13,19 +14,17 @@ window.addEventListener('scroll', () => {
 
 
 //navbar dropdown
-header.addEventListener('click', event => {
-        
-    if (dropdown.classList.contains('dropdown-collapsed')) {
-        dropdown.classList.remove('dropdown-collapsed')
-        dropdown.style.display = "none"
-        header.style.boxShadow = ""
-    
-    } else if (!dropdown.classList.contains('dropdown-collapsed') && event.target === menuButton) {
+menuButton.addEventListener('click', event => {
+        navList.classList.toggle('collapsed')
 
-        dropdown.classList.toggle('dropdown-collapsed', event.target.tagName == 'I' )
-        header.style.boxShadow = "0 0 1rem grey"
-        dropdown.style.display = "block"
-    }
+        if (navList.classList.contains("collapsed")) {
+            menuButton.style.color = "var(--primary)"
+            navbar.style.boxShadow = "0 8px 6px -6px rgba(0, 0, 0, 0.199)"
+
+        } else if (!navList.classList.contains("collapsed")) {
+            menuButton.style.color = "black"
+            navbar.style.boxShadow = "none"
+        }
 
 })
 
