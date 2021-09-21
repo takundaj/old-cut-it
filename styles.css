@@ -69,153 +69,107 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 }
 
 /* nav bar */
-.header-section {
-  background-color: #ffff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100000000000000;
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.header {
+li {
+  list-style: none;
+}
+
+nav {
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 0 8%;
-  transition: position 0.5s;
+  padding: 1rem 5vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000000000000000;
 }
 
-.logo {
-  width: clamp(5rem,5vw, 7rem);
-  margin: 0;
-  margin-right: auto;
-  padding-top: 1rem;
+.nav-logo {
+  width: 6rem;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: var(--secondary);
+.nav-menu-icon {
+font-size: 3rem;
+color: black;
 }
 
-.nav-link:hover {
+.nav-menu-icon:hover {
+  transform: scale(1.05);
+  transition: 0.25s all;
   color: var(--primary);
 }
 
-.navbar {
-  display: none;
-  align-items: center;
+.nav {
+  width: 100%;
+  text-align: center;
 }
 
-.navbar-item {
-  font-size: clamp(1.2rem, 0.9vw, 1.4rem);
-  list-style: none;
-  margin: 0 2rem;
+.nav > li {
+  padding-bottom: 2rem;
+}
+
+.collapsible {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+}
+
+.collapsed {
+  display: block;
+  opacity: 1;
+  max-height: 100%;
 }
 
 .nav-subscribe {
   display: none;
-}
-
-.nav-menu-icon {
-  font-size: 2.5rem;
-  color: var(--primary);
-}
-
-.nav-menu-icon:hover {
-  cursor: pointer;
-  transform: scale(1.25);
-  transition: transform 1s;
-}
-
-.dropdown {
-  display: none;
-  background-color: #ffff;
-  opacity: 0%;
-  max-height: 0%;
-}
-
-.dropdown-collapsed {
-  display: inline-block;
-  opacity: 1;
-  max-height: 100%;
-  transition: all 1s;
-}
-
-.dropdown-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar-item-dropdown {
-  list-style: none;
-  margin-bottom: 2.5rem;
-}
-
-/*makes nav bar stick*/
-.sticky {
-  width: 100%;
-  margin: 0;
-  position: fixed;
-  top: 0;
-  transition: position 0.5s;
-}
-
-.margin-filler {
-  display: none;
-}
-
-.margin-filler-active {
-  display: block;
-}
-
-.subscribe-btn {
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  color: #ffff;
   background-color: var(--primary);
-  border: none;
-  border-radius: 50px;
-  padding: 1rem 2rem;
-  margin: 0.25rem;
+  color: #fff;
+  border: 10px;
+  padding: 1.15rem 2rem;
+  border-radius: 20px;
   margin-left: 2rem;
-  letter-spacing: 0.5px;
-  font-size: 1.4rem;
+  font-size: clamp(1.3rem, 2vw, 1.4rem);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 982px) {
+  
+  nav {
+    box-shadow:none !important;
+    flex-wrap: nowrap;
+  }
+
   .nav-menu-icon {
     display: none;
   }
 
-  .subscribe-btn {
-    display: inline-block;
-  }
-
-  .subscribe-btn-link {
-    display: inline-block;
-  }
-
-  .navbar {
+  .nav {
+    width: auto;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 1;
+    max-height: 100%;
   }
 
-  .dropdown {
-    display: none !important;
+  .nav > li {
+    margin: 0 1rem;
+    padding: 0;
   }
 
-  .header-section {
-    box-shadow: none !important;
+  .nav-subscribe {
+    display: inline-block;
   }
 
-  .margin-filler-active {
-    display: block;
-  }
 }
 
 /* icons */
@@ -254,7 +208,6 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 .btn-cta {
   border-radius: 50px;
   padding: 1.25rem 2rem;
-  letter-spacing: 0.5px;
 }
 
 /* seperator */
