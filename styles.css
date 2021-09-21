@@ -90,7 +90,8 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1rem 5vw;
+  padding: 0.75rem 5vw 0 5vw;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -99,7 +100,7 @@ nav {
 }
 
 .nav-logo {
-  width: 6rem;
+  width: 5.25rem;
 }
 
 .nav-menu-icon {
