@@ -70,12 +70,16 @@ a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, 
 
 /* nav bar */
 
-a {
+ a {
   text-decoration: none;
   color: black;
 }
 
-li {
+a:hover {
+  color: var(--primary);
+}
+
+.nav > li {
   list-style: none;
 }
 
