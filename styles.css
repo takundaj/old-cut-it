@@ -104,13 +104,13 @@ nav {
 
 .nav-menu-icon {
 font-size: 3rem;
-color: var(--primary);
+color: black;
 }
 
 .nav-menu-icon:hover {
   transform: scale(1.05);
   transition: 0.25s all;
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .nav {
