@@ -14,10 +14,16 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0;
   line-height: 1.5;
   background-color: #ffff;
+}
+
+@media screen and (min-width:968px) {
+  body {
+    font-size: 1.5rem;
+  }
 }
 
 main {
@@ -47,7 +53,7 @@ h3 {
 }
 
 p {
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
 
 a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, .btn-appstore:hover  {
@@ -696,8 +702,11 @@ color: black;
   color: black;
   margin: 1rem 3rem 2rem 5rem;
   max-width: 55rem;
-  
 }
+
+.feature-description > p {
+  font-size: clamp(1.2rem, 1.7vw, 1.4rem);
+} 
 
 .hide {
   display: none;
@@ -1011,7 +1020,7 @@ body
   }
 
   .howto-list-container {
-    height: 41rem;
+    height: 37rem;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -1476,9 +1485,9 @@ body
   padding-left: 2.75rem ;
   padding-right: 1rem;
   margin-bottom: 2rem;
-  font-size: 1.2rem;
   max-height: 40rem;
   overflow: scroll;
+  font-size: inherit;
 }
 
 .card-body-list-item {
