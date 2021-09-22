@@ -9,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -49,10 +50,14 @@ p {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
-a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, .btn-appstore:hover ,.btn-howto:hover, .btn-feature:hover, .btn-faq:hover  {
+a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, .btn-appstore:hover  {
   cursor: pointer;
   transform: scale(1.015);
-  transition: transform 0.5s;
+  transition:  0.5s;
+}
+
+a:hover , input[type=submit]:hover, button:hover, .btn-appstore-inverted:hover, .btn-appstore:hover, .btn-feature:hover , .btn-faq:hover, .btn-howto:hover {
+  cursor: pointer;
 }
 
 .brown {
@@ -140,10 +145,11 @@ color: black;
   background-color: var(--primary);
   color: #fff;
   border: 10px;
-  padding: 1rem 2rem;
+  padding: 1.1rem 2rem;
   border-radius: 20px;
   margin-left: 2rem;
-  font-size: clamp(1.3rem, 2vw, 1.5rem);
+  font-size: clamp(1.3rem, 1.7vw, 1.5rem);
+  letter-spacing: 0.4px;
 }
 
 @media screen and (min-width: 982px) {
@@ -296,6 +302,7 @@ color: black;
   border: none;
   border-radius: 50px;
   margin: 3rem 0rem;
+  padding:1.1rem 2rem;
 }
 
 .hero-image {
@@ -413,7 +420,7 @@ color: black;
 
   .download-btn {
     letter-spacing: 0.4px;
-    padding: 1.25rem 2rem;
+    padding: 1.3rem 2rem;
   }
 
   .text-field-container {
@@ -1433,7 +1440,7 @@ body
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 2rem;
+  padding: 1.5rem 2rem 2rem 2rem;
   padding-bottom: 3rem;
 }
 
@@ -1456,11 +1463,20 @@ body
 
 .card-subtitle {
   text-align: center;
+  margin: 0.25rem;
+}
+
+.card-subtitle-small {
+  font-size: 1.4rem;
 }
 
 .card-body-list {
   padding-left: 2.75rem ;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.2rem;
+  max-height: 40rem;
+  overflow: scroll;
 }
 
 .card-body-list-item {
