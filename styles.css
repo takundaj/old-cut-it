@@ -1457,6 +1457,7 @@ body
 }
 
 .card-body-list {
+  padding-left: 2.75rem ;
   font-size: 1.2rem;
 }
 
