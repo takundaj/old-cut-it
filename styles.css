@@ -1592,7 +1592,7 @@ body
 .faq-seperator {
   display: none;
   text-align: center;
-  width: 80%;
+  width: 75%;
   margin-bottom: 0;
 }
 
@@ -1630,6 +1630,7 @@ body
 }
 
 .faq-question {
+  text-align: start;
   color: #ffff;
 }
 
