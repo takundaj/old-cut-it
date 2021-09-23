@@ -656,8 +656,8 @@ color: black;
 
 .feature-icon-container {
   font-size: 2.25rem;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 35px;
+  height: 35px;
   border-radius: 50px;
   background-color: var(--accent);
   margin: 0 1rem;
@@ -673,6 +673,14 @@ color: black;
 
 .feature-icon {
   color: black;
+}
+
+.fa-chart-line , .fa-users, .fa-star-half-alt {
+  margin: 0 0.5rem;
+}
+
+.fa-users {
+  margin-left: 0.3rem;
 }
 
 .feature-icon-selected {
@@ -741,6 +749,14 @@ color: black;
     border-radius: 40px;
     margin: 0 1rem;
     margin-right: 5%;
+  }
+
+  .fa-chart-line , .fa-users, .fa-star-half-alt {
+    margin: 0 0.5rem;
+  }
+  
+  .fa-users {
+    margin-left: 0.5rem;
   }
 
   .feature-description {
