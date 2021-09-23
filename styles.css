@@ -490,6 +490,7 @@ color: black;
   outline: none;
   padding: 1rem 2rem;
   margin-bottom: 5rem;
+  font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
 
 .button {
