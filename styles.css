@@ -133,7 +133,7 @@ color: black;
 }
  
 .nav > li > a {
-  font-size: 1.3rem;
+  font-size: (1.4rem, 1.7vw, 1.5rem);
 }
 
 .collapsible {
@@ -1176,8 +1176,8 @@ body
   text-align: center;
   margin-left: clamp(4rem, 5vw, 10rem);
   margin-right: clamp(4rem, 5vw, 10rem);
-  padding-top: clamp(2rem, 4vh, 8rem);
-  padding-bottom: clamp(2rem, 4vh, 8rem);
+  padding-top: clamp(2rem, 4vh, 15rem);
+  padding-bottom: clamp(2rem, 4vh, 15rem);
 }
 
 .data-text-subheading {
@@ -1197,7 +1197,7 @@ body
 }
 
 .data-phone-image {
-  width: clamp(15rem, 25vw, 30rem);
+  width: clamp(15rem, 25vw, 25rem);
 }
 
 .data-text-container {
@@ -1258,10 +1258,16 @@ body
 }
 
 @media screen and (min-width: 768px) {
+
+  .data-section {
+    margin: 5rem 0;
+  }
+
   .data-outer-grid {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 1fr;
     place-items: center;
+    grid-column-gap: 5rem;
   }
 
   .data-image-container {
