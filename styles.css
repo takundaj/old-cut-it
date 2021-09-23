@@ -478,6 +478,8 @@ color: black;
   overflow: hidden;
   box-shadow: 0 0 1rem #9f8268;
   margin: 2rem auto;
+  padding: 0 1rem;
+
 }
 
 .texfield {
@@ -518,8 +520,6 @@ color: black;
   color: green;
   margin-bottom: 1.5rem;
 }
-
-/* END OF NEW FORM STYLES */
 
 @media screen and (min-width: 1024px) {
   .text-field-container {
