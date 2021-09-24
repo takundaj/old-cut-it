@@ -152,7 +152,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[0].classList.toggle('feature-title-selected')
             featureIconContainersArray[0].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[0].classList.toggle('feature-icon-selected')
-            featuresIphoneImage.setAttribute('src','/images/iphone-booking.png')
+            featuresIphoneImage.setAttribute('src','/images/iphone-x 38.png')
 
             //DESELECT
 
@@ -209,7 +209,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[1].classList.toggle('feature-title-selected')
             featureIconContainersArray[1].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[1].classList.toggle('feature-icon-selected')
-            featuresIphoneImage.setAttribute('src','/images/iphone.svg')
+            featuresIphoneImage.setAttribute('src','/images/iphone-x 33.png')
 
                         //DESELECT
 
@@ -264,7 +264,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[2].classList.toggle('feature-title-selected')
             featureIconContainersArray[2].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[2].classList.toggle('feature-icon-selected')
-            featuresIphoneImage.setAttribute('src','/images/iphone-connect.png')
+            featuresIphoneImage.setAttribute('src','/images/iphone-x 10.png')
 
                         //DESELECT
 
@@ -321,7 +321,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[3].classList.toggle('feature-title-selected')
             featureIconContainersArray[3].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[3].classList.toggle('feature-icon-selected')
-            featuresIphoneImage.setAttribute('src','/images/iphone.svg')
+            featuresIphoneImage.setAttribute('src','/images/iphone-x 57.png')
 
             
             //DESELECT
@@ -377,7 +377,7 @@ featuresButtonsArray.forEach( button => {
             featureTitlesArray[4].classList.toggle('feature-title-selected')
             featureIconContainersArray[4].classList.toggle('feature-icon-container-selected')
             featureIconImageArray[4].classList.toggle('feature-icon-selected')
-            featuresIphoneImage.setAttribute('src','/images/iphone-build-following.png')
+            featuresIphoneImage.setAttribute('src','/images/iphone-x build.png')
 
         
             //DESELECT
