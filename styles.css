@@ -1513,13 +1513,26 @@ body
   max-height: 40rem;
   overflow: scroll;
   font-size: 1.4rem;
-  scrollbar-color: var(--primary);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+.card-body-listelement::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .card-body-list-item {
   margin-bottom: 2rem;
   list-style-image: url(/images/price-list-tick.svg);
   text-align: start;
+}
+
+.no-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
 
 .card-button {
