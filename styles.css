@@ -710,13 +710,13 @@ color: black;
 }
 
 .feature-description {
-  display: none;
+  max-height: 0;
+  margin: 0 3rem 0 5rem;
+  overflow: hidden;
+  opacity: 0;
   color: black;
-  margin: 1rem 3rem 2rem 5rem;
   max-width: 55rem;
 }
-
-
 
 .hide {
   display: none;
@@ -726,10 +726,13 @@ color: black;
 
 /* OPEN FEATURE */
 .feature-description-open {
-  display: inline-block;
+  max-height: 100vh;
+  opacity: 1;
+  margin: 1rem 3rem 2rem 5rem;
   color: black;
-  transition: opacity 0.5s;
+  transition: all 0.75s;
 }
+
 
 @media screen and (min-width: 768px) {
   .features-container {
@@ -767,6 +770,10 @@ color: black;
   }
 
   .feature-description {
+    margin: 0 3rem 0 7rem;
+  }
+
+  .feature-description-open {
     margin: 0rem 3rem 4rem 7rem;
     max-width: 55rem;
   }
