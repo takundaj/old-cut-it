@@ -247,14 +247,12 @@ color: black;
 
 /* SECTION */
 
-.section {
-  margin-top: clamp(4rem, 10vw, 6rem);
-}
-
 .hero-section {
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: clamp(4rem, 10vw, 6rem);
 }
 
 .hero-container {
@@ -1571,6 +1569,26 @@ body
     margin: 2rem 1rem;
   }
 }
+
+
+/* About us */
+.section {
+  max-width: 160rem;
+  margin-left: clamp(2rem, 15vw, 35rem);
+  margin-right: clamp(2rem, 15vw, 35rem);
+  padding-top: clamp(2rem, 4vh, 8rem);
+  padding-bottom: clamp(2rem, 4vh, 8rem);
+  text-align: center;
+}
+
+.container {
+
+}
+
+
+
+
+
 
 /* FAQ + CONTACT SECTION */
 
