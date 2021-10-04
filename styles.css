@@ -1581,10 +1581,14 @@ body
   text-align: center;
 }
 
-.container {
+.block-image-container {
+  padding-top: 3vw;
 
 }
 
+.about-us-image {
+  max-width: 20rem;
+}
 
 
 
