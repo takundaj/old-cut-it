@@ -13,9 +13,10 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family:'Akrobat', sans-serif;
   margin: 0;
   line-height: 1.5;
+  letter-spacing: 0.5px;
   background-color: #ffff;
 }
 
@@ -33,16 +34,20 @@ h5 {
 
 h1 {
   font-size: clamp(2.5rem, 5vw, 8rem);
+  font-family: 'Akrobat Bold', sans-serif;
 }
 
 h2 {
+  font-family: 'Akrobat SemiBold', sans-serif;
   color: var(--color-headings);
   font-size: clamp(2.5rem, 5vw, 4rem);
   margin-bottom: 1rem;
+
 }
 
 h3 {
   font-size: clamp(1.8rem, 2vw, 2rem);
+  font-family: 'Akrobat SemiBold', sans-serif;
 }
 
 p {
