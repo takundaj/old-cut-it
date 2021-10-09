@@ -273,7 +273,7 @@ color: black;
   place-items: center;
   grid-template-columns: 2fr;
   grid-template-rows: repeat(3, fit-content);
-  padding-bottom: clamp(5rem, 5vh, 8rem);
+  padding-bottom: clamp(2rem, 5vh, 8rem);
 }
 
 .hero-grid-title-section {
@@ -464,12 +464,12 @@ color: black;
 
 .email-form {
   text-align: center;
-  margin-top: clamp(2rem, 2vw, 4rem);
-  margin-bottom: clamp(2rem, 2vw, 4rem);
+  margin-top: clamp(3rem, 3vw, 4rem);
+  margin-bottom: clamp(3rem, 3vw, 4rem);
 }
 
 .form-description {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-size: clamp(1.8rem, 2vw, 3rem);
 }
 
@@ -507,7 +507,7 @@ color: black;
   border-radius: 30px;
   margin: 0.2rem 0.25rem;
   letter-spacing: 0.4px;
-  padding: 1.25rem 2rem;
+  padding: 1.25rem 1.5rem;
   font-size: clamp(1.3rem, 2vw, 1.5rem);
 }
 
@@ -522,6 +522,21 @@ color: black;
 #mce-success-response {
   color: green;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .form-description {
+    margin-bottom: 3rem;
+  }
+
+  .texfield {
+    height: 4rem;
+  }
+
+  .button {
+    padding: 1.25rem 2rem;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
