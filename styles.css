@@ -566,7 +566,6 @@ color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/images/quote\ background.svg);
 }
 
 .quote-container {
@@ -589,6 +588,11 @@ color: black;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
+  grid-column: 1/2;
+}
+
+.quote {
+  grid-column: 1/4;
 }
 
 .quote-text {
@@ -604,10 +608,33 @@ color: black;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  grid-column: 3/4;
 }
 
 .right-quote > img {
   transform: rotate(180deg);
+}
+
+@media screen and (min-width:500px) {
+  
+.left-quote {
+  grid-column: 1/2;
+}
+
+.quote {
+  grid-column: 2/3;
+}
+
+.right-quote {
+  grid-column: 3/4;
+}
+
+}
+
+@media screen and (min-width:1024px) {
+  .quote-section {
+    background-image: url(/images/quote\ background.svg);
+  }  
 }
 
 /* FEATURES */
