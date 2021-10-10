@@ -505,7 +505,7 @@ color: black;
   border: none;
   padding: 1rem 1.75em;
   border-radius: 30px;
-  margin: 0.2rem 0.25rem;
+  margin: 0.2rem 0.23rem;
   letter-spacing: 0.4px;
   padding: 1.25rem 1.5rem;
   font-size: clamp(1.3rem, 2vw, 1.5rem);
@@ -963,7 +963,7 @@ color: black;
 
 .howto-list-container {
   height: 33rem;
-  width: 90%;
+  width: 100%;
   padding-right: 1rem;
   display: flex;
   flex-direction: column;
