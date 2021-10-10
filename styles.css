@@ -458,8 +458,8 @@ color: black;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-left: clamp(1rem, 10vw, 35rem);
-  margin-right: clamp(1rem, 10vw, 35rem);
+  margin-left: clamp(0.5rem, 8vw, 35rem);
+  margin-right: clamp(0.5rem, 8vw, 35rem);
 }
 
 .email-form {
