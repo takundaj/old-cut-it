@@ -393,6 +393,37 @@ color: black;
   text-align: start;
 }
 
+.scrolldown-contianer {
+  text-align: center;
+  color: #9f8268;
+}
+
+.scrolldown-contianer i {
+  font-size: 3rem;
+  animation: hover 3s infinite;
+}
+
+.d-none {
+  opacity: 0;
+  max-height: 0;
+  transition: 1s;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(5px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(5px)
+  }
+
+}
+
 @media screen and (min-width: 900px) {
   .hero-grid {
     display: grid;

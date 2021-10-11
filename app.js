@@ -5,6 +5,7 @@ const navList = document.querySelector(".nav");
 const menuButton = document.querySelector(".nav-menu-icon");
 const priceSwiper = document.querySelector('.priceplan-container');
 const priceSwiperWrapper = document.querySelector('.priceplan-swiper');
+const scrolldown = document.querySelector('.scrolldown-contianer');
 
 //nav bar sticky
 window.addEventListener('scroll', () => {
@@ -27,7 +28,6 @@ menuButton.addEventListener('click', event => {
         }
 
 })
-
 
 //get h1 element
 const titleObject = document.getElementById('job-title');
@@ -89,6 +89,13 @@ function loop() {
 }
 
 loop()
+
+
+window.addEventListener('scroll', event => {
+    if (window.scrollY > 200) {
+        scrolldown.classList.add('d-none')
+    }
+})
 
 
 
