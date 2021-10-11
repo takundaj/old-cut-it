@@ -369,10 +369,16 @@ color: black;
 }
 
 .title {
-  font-size: clamp(4rem, 5vw, 6rem);
+  font-size: clamp(2.5rem, 5vw, 6rem);
   line-height: clamp(2rem, 100%, 10rem);
   text-align: center;
   margin: 0;
+}
+
+@media screen and (max-width:600px) {
+  .title {
+    letter-spacing: -5px;
+  }
 }
 
 .title-text-subtitle {
