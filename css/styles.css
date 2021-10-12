@@ -1423,6 +1423,7 @@ body
 
 .data-number {
   font-size: clamp(1.8rem, 2vw, 2rem);
+  letter-spacing: -0.25rem;
 }
 
 .data-description {
@@ -1432,7 +1433,7 @@ body
 }
 
 .happy-customers {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1686,13 +1687,14 @@ body
 .card-body-list {
   padding-left: 2.75rem ;
   padding-right: 1rem;
-  margin-bottom: 3em;
+  margin-bottom: 1.5rem;
   max-height: 40rem;
   overflow: scroll;
   font-size: 1.4rem;
   overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
+
 
 .card-body-listelement::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
@@ -1743,8 +1745,8 @@ body
 /* About us */
 .section {
   max-width: 160rem;
-  margin-left: clamp(2rem, 15vw, 35rem);
-  margin-right: clamp(2rem, 15vw, 35rem);
+  margin-left: clamp(1rem, 10vw, 35rem);
+  margin-right: clamp(1rem, 10vw, 35rem);
   padding-top: clamp(2rem, 4vh, 8rem);
   padding-bottom: clamp(2rem, 4vh, 8rem);
   text-align: center;
