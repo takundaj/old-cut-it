@@ -52,7 +52,7 @@ h5 {
 }
 
 h1 {
-  font-size: clamp(2.5rem, 5vw, 8rem);
+  font-size: clamp(2.5rem, 5vw, 6rem);
   letter-spacing: -0.75rem;
 }
 
@@ -61,6 +61,7 @@ h2 {
   font-size: clamp(2.5rem, 5vw, 4rem);
   margin-bottom: 1rem;
   letter-spacing: -0.5rem;
+  line-height: 1.25;
 
 }
 
@@ -921,7 +922,7 @@ color: black;
 }
 
 .whyus-container {
-  max-width: 100rem;
+  max-width: 150rem;
   text-align: center;
   margin-left: clamp(3rem, 5vw, 10rem);
   margin-right: clamp(3rem, 5vw, 10rem);
@@ -942,7 +943,8 @@ color: black;
 }
 
 .whyus-heading {
-  font-size: clamp(2.5rem, 2vw, 6rem);
+  font-size: clamp(2.5rem, 2vw, 3rem);
+  margin: 0;
   margin-bottom: 5rem;
   font-weight: 400;
 }
@@ -964,8 +966,8 @@ color: black;
 }
 
 .media-icon {
-  width: clamp(5.7rem, 6vw, 10rem);
-  height: clamp(5.7rem, 6vw, 10rem);
+  width: clamp(5rem, 6vw, 7rem);
+  height: clamp(5rem, 6vw, 7rem);
   margin-right: clamp(0rem, 1vw, 2rem);
   border-radius: 50%;
 }
@@ -992,23 +994,54 @@ color: black;
 @media screen and (min-width: 900px) {
   .whyus-grid {
     grid-template-columns: 1fr 3px 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 5rem;
+    grid-template-rows: fit-content;
+    grid-column-gap: 5rem;
   }
 
   .grid-seperator {
     display: inline-block;
-    grid-template-columns: 2/3;
+    grid-column: 2/3;
+    grid-row: 1/6;
     margin: auto 0;
   }
 
-  .user-section {
+  .user-section-title {
     grid-template-columns: 1/2;
   }
 
-  .specialist-section {
+  .client-media {
+    grid-column: 1/2;
+  }
+  
+  .client-specialist {
+     grid-column: 3/4;
+  }
+
+  .specialist-section-title {
     grid-template-columns: 3/4;
   }
+
+
+  .row0 {
+    grid-row: 1/2;
+  }
+
+  .row1 {
+    grid-row: 2/3;
+  }
+
+  .row2 {
+    grid-row: 3/4;
+  }
+
+  .row3 {
+    grid-row: 4/5;
+  }
+
+  .row4 {
+    grid-row: 5/6;
+  }
+
 }
 
 /*HOW TO SECTION*/
