@@ -394,6 +394,7 @@ color: black;
 }
 
 .scrolldown-contianer {
+  display: none;
   text-align: center;
   color: #9f8268;
 }
@@ -406,7 +407,15 @@ color: black;
 .d-none {
   opacity: 0;
   max-height: 0;
-  transition: 1s;
+  transition: all 1s;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .scrolldown-contianer {
+    display: block;
+  }
+
 }
 
 @keyframes hover {
