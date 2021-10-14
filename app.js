@@ -596,7 +596,6 @@ howToButtonsArray.forEach( button => {
     
         }
 
-
         if (button.classList.contains('4') && !button.classList.contains('btn-howto-selected')) {
             
             //change background
@@ -626,6 +625,43 @@ howToButtonsArray.forEach( button => {
             //deselect others (icon)
             howToIconsArray.forEach(item => {
                 if (item !== howToIconsArray[4]) {
+                    item.classList.remove('howto-icon-selected')
+                }
+            })
+    
+
+        }
+
+
+        if (button.classList.contains('5') && !button.classList.contains('btn-howto-selected')) {
+            
+            //change background
+            button.classList.toggle('btn-howto-selected')
+            //change text
+            howToTextArray[5].classList.toggle('howto-text-selected')
+            //change icons
+            howToIconsArray[5].classList.toggle('howto-icon-selected')
+
+            //change how to image
+            howToImage.setAttribute('src','/images/howto-image-6.png')
+
+            //deselect others (background)
+            howToButtonsArray.forEach(item => {
+                if (item !== button) {
+                    item.classList.remove('btn-howto-selected')
+                }
+            })
+
+            //deselect others (text)
+            howToTextArray.forEach(item => {
+                if (item !== howToTextArray[5]) {
+                    item.classList.remove('howto-text-selected')
+                }
+            })
+
+            //deselect others (icon)
+            howToIconsArray.forEach(item => {
+                if (item !== howToIconsArray[5]) {
                     item.classList.remove('howto-icon-selected')
                 }
             })
@@ -676,7 +712,33 @@ faqButtonsArray.forEach(button => {
             faqIconsArray[3].classList.toggle('faq-icon-open')
         }
 
+        if (button.classList.contains(4)) {
+            faqButtonsArray[4].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[4].classList.toggle('faq-sepeator-open')
+            faqBodyArray[4].classList.toggle('btn-faq-body-open')
+            faqIconsArray[4].classList.toggle('faq-icon-open')
+        }
 
+        if (button.classList.contains(5)) {
+            faqButtonsArray[5].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[5].classList.toggle('faq-sepeator-open')
+            faqBodyArray[5].classList.toggle('btn-faq-body-open')
+            faqIconsArray[5].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(6)) {
+            faqButtonsArray[6].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[6].classList.toggle('faq-sepeator-open')
+            faqBodyArray[6].classList.toggle('btn-faq-body-open')
+            faqIconsArray[6].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(7)) {
+            faqButtonsArray[7].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[7].classList.toggle('faq-sepeator-open')
+            faqBodyArray[7].classList.toggle('btn-faq-body-open')
+            faqIconsArray[7].classList.toggle('faq-icon-open')
+        }
 
 
     })
