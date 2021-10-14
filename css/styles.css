@@ -1363,7 +1363,7 @@ body
 
 .data-text-heading {
   font-family: "lulo clean", sans-serif;
-  font-size: 3rem;
+  font-size: clamp(1.4rem, 2vw, 3rem;
 }
 
 .data-section-container {
