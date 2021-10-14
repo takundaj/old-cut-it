@@ -1120,7 +1120,7 @@ color: black;
   align-items: center;
   background-color: #ffff;
   border-radius: 15px;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0rem;
   margin: 0.75rem 0;
   box-shadow: 0 0 0.75rem var(--primary);
   text-align: start;
