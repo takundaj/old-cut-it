@@ -74,6 +74,20 @@ p {
   font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
 
+#mce-error-response {
+  color: orange;
+  font-size: clamp(1.4rem, 2vw, 1.55rem);
+}
+
+#mce-error-response > a {
+  text-decoration: underline;
+  color: orange;
+}
+
+#mce-error-response > a:hover {
+  color: var(--primary);
+}
+
 a {
   font-size: 1.4rem;
 }
@@ -2269,7 +2283,7 @@ footer {
 }
 
 .specialist-tab-header , .client-tab-header {
-  border: 1px solid white ;
+  border: 0px solid white ;
 }
 
 .tab-container .tab {
@@ -2287,7 +2301,15 @@ footer {
 .tab-container input[type="radio"]:checked + label {
   background-color: white;
   color: var(--primary);
-  transition: background 1s;
+  transition: background 0.5s;
+}
+
+.client-tab-header {
+  border-radius: 5px 5px 0 0;
+}
+
+.specialist-tab-header {
+  border-radius: 5px 5px 0 0 ;
 }
 
 /* NEW SUBSCRIBE */
