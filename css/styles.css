@@ -483,7 +483,7 @@ color: black;
   .title-wrapper {
     text-align: start;
     margin: 0;
-    
+    min-height: 7.5rem;
   }
 
   .hero-grid-image-section {
