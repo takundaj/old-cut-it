@@ -74,6 +74,10 @@ p {
   font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
 
+.remove {
+  display: none;
+}
+
 #mce-error-response {
   color: orange;
   font-size: clamp(1.4rem, 2vw, 1.55rem);
