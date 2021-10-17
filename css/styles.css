@@ -1383,7 +1383,7 @@ body
 
 .data-text-heading {
   font-family: "lulo clean", sans-serif;
-  font-size: clamp(1.4rem, 2vw, 3rem);
+  font-size: clamp(2.5rem, 5vw, 3rem);
 }
 
 .data-section-container {
@@ -1820,6 +1820,11 @@ body
   padding-bottom: clamp(2rem, 4vh, 8rem);
   background-image: url(/images/faq\background.svg);
   background-repeat: no-repeat;
+}
+
+.faq-intro {
+  margin-left: clamp(4rem, 5vw, 10rem);
+  margin-right: clamp(4rem, 5vw, 10rem);
 }
 
 .FAQ-section-container {
