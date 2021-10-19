@@ -796,7 +796,7 @@ contactForm.addEventListener('submit', event => {
     event.preventDefault()
 
 // https://github.com/github/fetch
-fetch("https://formsubmit.co/ajax/tjnyamatore@gmail.com", {
+fetch("https://formsubmit.co/ajax/support@cutitapp.co.uk", {
     method: "POST",
     headers: { 
         'Content-Type': 'application/json',
@@ -830,6 +830,13 @@ fetch("https://formsubmit.co/ajax/tjnyamatore@gmail.com", {
 
 
 })
+
+
+
+
+
+
+
 
 
 

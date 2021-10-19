@@ -2213,7 +2213,7 @@ footer {
 /* NEW CONTACT SECTION */
 
 .contact-section {
-  padding-top: clamp(2rem, 4vh, 8rem);
+  padding-top: clamp(1rem, 4vh, 8rem);
   padding-bottom: clamp(2rem, 4vh, 8rem);
 }
 
@@ -2364,7 +2364,6 @@ footer {
 
 .contact-container {
   flex-direction: column;
-  padding-top: clamp(2rem, 5vh, 8rem);
 }
 
 .contact-body {
