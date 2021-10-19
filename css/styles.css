@@ -2355,8 +2355,9 @@ footer {
   border: none;
   color: #fff;
   height: auto;
-  padding: 1rem 5rem;
-  border-radius: 5px;
+  padding: 1rem 4rem;
+  border-radius: 20px;
+  text-transform: uppercase;
   font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
 
@@ -2437,8 +2438,8 @@ footer {
   border: none;
   color: #fff;
   height: auto;
-  padding: 1rem 5rem;
-  border-radius: 5px;
+  padding: 1.25rem 5rem;
+  border-radius: 20px;
   font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
 
