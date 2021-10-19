@@ -965,7 +965,8 @@ color: black;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 2rem;
+
+
 }
 
 .whyus-heading {
@@ -1022,6 +1023,7 @@ color: black;
     grid-template-columns: 1fr 3px 1fr;
     grid-template-rows: fit-content;
     grid-column-gap: 5rem;
+    grid-row-gap: 1rem;
   }
 
   .grid-seperator {
