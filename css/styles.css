@@ -1759,7 +1759,7 @@ body
   border: none;
   color: #ffff;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   border-radius: 20px;
   font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
