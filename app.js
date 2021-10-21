@@ -702,16 +702,16 @@ const hideables = document.querySelectorAll('.hideable')
 
 seeMoreButton.addEventListener('click', event => {
 
-    if (seeMoreButton.textContent === "click here to see more") {
+    if (seeMoreButton.textContent === "Click here to see more") {
         hideables.forEach(item => {
             item.classList.remove('hiding')
-            seeMoreButton.textContent = "click here to see less"
+            seeMoreButton.textContent = "Click here to see less"
         })
 
-    } else if (seeMoreButton.textContent === "click here to see less") {
+    } else if (seeMoreButton.textContent === "Click here to see less") {
         hideables.forEach(item => {
             item.classList.add('hiding')
-            seeMoreButton.textContent = "click here to see more"
+            seeMoreButton.textContent = "Click here to see more"
         })
     }
 
