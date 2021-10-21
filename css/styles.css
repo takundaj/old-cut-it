@@ -1741,7 +1741,7 @@ body
 }
 
 .card-body-list-item {
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   list-style-image: url(/images/price-list-tick.svg);
   text-align: start;
 }
