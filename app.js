@@ -680,212 +680,40 @@ const faqSeperatorsArray = document.querySelectorAll('.faq-seperator')
 const faqBodyArray = document.querySelectorAll('.btn-faq-body')
 const faqIconsArray = document.querySelectorAll('.faq-icon')
 
-faqButtonsArray.forEach(button => {
+faqButtonsArray.forEach((button, i) => {
 
     button.addEventListener('click', event => {
 
-        if (button.classList.contains(0)) {
-            faqButtonsArray[0].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[0].classList.toggle('faq-sepeator-open')
-            faqBodyArray[0].classList.toggle('btn-faq-body-open')
-            faqIconsArray[0].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(1)) {
-            faqButtonsArray[1].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[1].classList.toggle('faq-sepeator-open')
-            faqBodyArray[1].classList.toggle('btn-faq-body-open')
-            faqIconsArray[1].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(2)) {
-            faqButtonsArray[2].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[2].classList.toggle('faq-sepeator-open')
-            faqBodyArray[2].classList.toggle('btn-faq-body-open')
-            faqIconsArray[2].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(3)) {
-            faqButtonsArray[3].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[3].classList.toggle('faq-sepeator-open')
-            faqBodyArray[3].classList.toggle('btn-faq-body-open')
-            faqIconsArray[3].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(4)) {
-            faqButtonsArray[4].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[4].classList.toggle('faq-sepeator-open')
-            faqBodyArray[4].classList.toggle('btn-faq-body-open')
-            faqIconsArray[4].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(5)) {
-            faqButtonsArray[5].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[5].classList.toggle('faq-sepeator-open')
-            faqBodyArray[5].classList.toggle('btn-faq-body-open')
-            faqIconsArray[5].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(6)) {
-            faqButtonsArray[6].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[6].classList.toggle('faq-sepeator-open')
-            faqBodyArray[6].classList.toggle('btn-faq-body-open')
-            faqIconsArray[6].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(7)) {
-            faqButtonsArray[7].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[7].classList.toggle('faq-sepeator-open')
-            faqBodyArray[7].classList.toggle('btn-faq-body-open')
-            faqIconsArray[7].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(8)) {
-            faqButtonsArray[8].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[8].classList.toggle('faq-sepeator-open')
-            faqBodyArray[8].classList.toggle('btn-faq-body-open')
-            faqIconsArray[8].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(9)) {
-            faqButtonsArray[9].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[9].classList.toggle('faq-sepeator-open')
-            faqBodyArray[9].classList.toggle('btn-faq-body-open')
-            faqIconsArray[9].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(10)) {
-            faqButtonsArray[10].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[10].classList.toggle('faq-sepeator-open')
-            faqBodyArray[10].classList.toggle('btn-faq-body-open')
-            faqIconsArray[10].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(11)) {
-            faqButtonsArray[11].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[11].classList.toggle('faq-sepeator-open')
-            faqBodyArray[11].classList.toggle('btn-faq-body-open')
-            faqIconsArray[11].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(12)) {
-            faqButtonsArray[12].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[12].classList.toggle('faq-sepeator-open')
-            faqBodyArray[12].classList.toggle('btn-faq-body-open')
-            faqIconsArray[12].classList.toggle('faq-icon-open')
-        }
-
-
-        if (button.classList.contains(13)) {
-            faqButtonsArray[13].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[13].classList.toggle('faq-sepeator-open')
-            faqBodyArray[13].classList.toggle('btn-faq-body-open')
-            faqIconsArray[13].classList.toggle('faq-icon-open')
-        }
-
-
-        if (button.classList.contains(14)) {
-            faqButtonsArray[14].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[14].classList.toggle('faq-sepeator-open')
-            faqBodyArray[14].classList.toggle('btn-faq-body-open')
-            faqIconsArray[14].classList.toggle('faq-icon-open')
-        }
-
-
-        if (button.classList.contains(15)) {
-            faqButtonsArray[15].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[15].classList.toggle('faq-sepeator-open')
-            faqBodyArray[15].classList.toggle('btn-faq-body-open')
-            faqIconsArray[15].classList.toggle('faq-icon-open')
-        }
-
-
-        if (button.classList.contains(16)) {
-            faqButtonsArray[16].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[16].classList.toggle('faq-sepeator-open')
-            faqBodyArray[16].classList.toggle('btn-faq-body-open')
-            faqIconsArray[16].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(17)) {
-            faqButtonsArray[17].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[17].classList.toggle('faq-sepeator-open')
-            faqBodyArray[17].classList.toggle('btn-faq-body-open')
-            faqIconsArray[17].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(18)) {
-            faqButtonsArray[18].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[18].classList.toggle('faq-sepeator-open')
-            faqBodyArray[18].classList.toggle('btn-faq-body-open')
-            faqIconsArray[18].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(19)) {
-            faqButtonsArray[19].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[19].classList.toggle('faq-sepeator-open')
-            faqBodyArray[19].classList.toggle('btn-faq-body-open')
-            faqIconsArray[19].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(20)) {
-            faqButtonsArray[20].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[20].classList.toggle('faq-sepeator-open')
-            faqBodyArray[20].classList.toggle('btn-faq-body-open')
-            faqIconsArray[20].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(21)) {
-            faqButtonsArray[21].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[21].classList.toggle('faq-sepeator-open')
-            faqBodyArray[21].classList.toggle('btn-faq-body-open')
-            faqIconsArray[21].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(22)) {
-            faqButtonsArray[22].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[22].classList.toggle('faq-sepeator-open')
-            faqBodyArray[22].classList.toggle('btn-faq-body-open')
-            faqIconsArray[22].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(23)) {
-            faqButtonsArray[23].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[23].classList.toggle('faq-sepeator-open')
-            faqBodyArray[23].classList.toggle('btn-faq-body-open')
-            faqIconsArray[23].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(24)) {
-            faqButtonsArray[24].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[24].classList.toggle('faq-sepeator-open')
-            faqBodyArray[24].classList.toggle('btn-faq-body-open')
-            faqIconsArray[24].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(25)) {
-            faqButtonsArray[25].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[25].classList.toggle('faq-sepeator-open')
-            faqBodyArray[25].classList.toggle('btn-faq-body-open')
-            faqIconsArray[25].classList.toggle('faq-icon-open')
-        }
-
-
-        if (button.classList.contains(26)) {
-            faqButtonsArray[26].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[26].classList.toggle('faq-sepeator-open')
-            faqBodyArray[26].classList.toggle('btn-faq-body-open')
-            faqIconsArray[26].classList.toggle('faq-icon-open')
-        }
-
-        if (button.classList.contains(27)) {
-            faqButtonsArray[27].classList.toggle('btn-faq-open')
-            faqSeperatorsArray[27].classList.toggle('faq-sepeator-open')
-            faqBodyArray[27].classList.toggle('btn-faq-body-open')
-            faqIconsArray[27].classList.toggle('faq-icon-open')
+        if (button.classList.contains(i)) {
+            faqButtonsArray[i].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[i].classList.toggle('faq-sepeator-open')
+            faqBodyArray[i].classList.toggle('btn-faq-body-open')
+            faqIconsArray[i].classList.toggle('faq-icon-open')
         }
 
     })
+
+})
+
+
+//FAQ - See more functionality
+const seeMoreButton = document.querySelector('.see-more');
+const hideables = document.querySelectorAll('.hideable')
+
+seeMoreButton.addEventListener('click', event => {
+
+    if (seeMoreButton.textContent === "click here to see more") {
+        hideables.forEach(item => {
+            item.classList.remove('hiding')
+            seeMoreButton.textContent = "click here to see less"
+        })
+
+    } else if (seeMoreButton.textContent === "click here to see less") {
+        hideables.forEach(item => {
+            item.classList.add('hiding')
+            seeMoreButton.textContent = "click here to see more"
+        })
+    }
 
 })
 

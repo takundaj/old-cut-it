@@ -1953,7 +1953,16 @@ body
   text-decoration: underline;
   animation-name: pulse;
   animation-iteration-count: infinite;
-  
+}
+
+.see-more:hover {
+  cursor: pointer;
+  color: #e48e43;
+  transition: color 0.5s;
+}
+
+.hiding {
+  display: none;
 }
 
 @media screen and (max-width:768px) {
