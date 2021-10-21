@@ -740,6 +740,150 @@ faqButtonsArray.forEach(button => {
             faqIconsArray[7].classList.toggle('faq-icon-open')
         }
 
+        if (button.classList.contains(8)) {
+            faqButtonsArray[8].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[8].classList.toggle('faq-sepeator-open')
+            faqBodyArray[8].classList.toggle('btn-faq-body-open')
+            faqIconsArray[8].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(9)) {
+            faqButtonsArray[9].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[9].classList.toggle('faq-sepeator-open')
+            faqBodyArray[9].classList.toggle('btn-faq-body-open')
+            faqIconsArray[9].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(10)) {
+            faqButtonsArray[10].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[10].classList.toggle('faq-sepeator-open')
+            faqBodyArray[10].classList.toggle('btn-faq-body-open')
+            faqIconsArray[10].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(11)) {
+            faqButtonsArray[11].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[11].classList.toggle('faq-sepeator-open')
+            faqBodyArray[11].classList.toggle('btn-faq-body-open')
+            faqIconsArray[11].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(12)) {
+            faqButtonsArray[12].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[12].classList.toggle('faq-sepeator-open')
+            faqBodyArray[12].classList.toggle('btn-faq-body-open')
+            faqIconsArray[12].classList.toggle('faq-icon-open')
+        }
+
+
+        if (button.classList.contains(13)) {
+            faqButtonsArray[13].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[13].classList.toggle('faq-sepeator-open')
+            faqBodyArray[13].classList.toggle('btn-faq-body-open')
+            faqIconsArray[13].classList.toggle('faq-icon-open')
+        }
+
+
+        if (button.classList.contains(14)) {
+            faqButtonsArray[14].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[14].classList.toggle('faq-sepeator-open')
+            faqBodyArray[14].classList.toggle('btn-faq-body-open')
+            faqIconsArray[14].classList.toggle('faq-icon-open')
+        }
+
+
+        if (button.classList.contains(15)) {
+            faqButtonsArray[15].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[15].classList.toggle('faq-sepeator-open')
+            faqBodyArray[15].classList.toggle('btn-faq-body-open')
+            faqIconsArray[15].classList.toggle('faq-icon-open')
+        }
+
+
+        if (button.classList.contains(16)) {
+            faqButtonsArray[16].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[16].classList.toggle('faq-sepeator-open')
+            faqBodyArray[16].classList.toggle('btn-faq-body-open')
+            faqIconsArray[16].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(17)) {
+            faqButtonsArray[17].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[17].classList.toggle('faq-sepeator-open')
+            faqBodyArray[17].classList.toggle('btn-faq-body-open')
+            faqIconsArray[17].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(18)) {
+            faqButtonsArray[18].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[18].classList.toggle('faq-sepeator-open')
+            faqBodyArray[18].classList.toggle('btn-faq-body-open')
+            faqIconsArray[18].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(19)) {
+            faqButtonsArray[19].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[19].classList.toggle('faq-sepeator-open')
+            faqBodyArray[19].classList.toggle('btn-faq-body-open')
+            faqIconsArray[19].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(20)) {
+            faqButtonsArray[20].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[20].classList.toggle('faq-sepeator-open')
+            faqBodyArray[20].classList.toggle('btn-faq-body-open')
+            faqIconsArray[20].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(21)) {
+            faqButtonsArray[21].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[21].classList.toggle('faq-sepeator-open')
+            faqBodyArray[21].classList.toggle('btn-faq-body-open')
+            faqIconsArray[21].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(22)) {
+            faqButtonsArray[22].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[22].classList.toggle('faq-sepeator-open')
+            faqBodyArray[22].classList.toggle('btn-faq-body-open')
+            faqIconsArray[22].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(23)) {
+            faqButtonsArray[23].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[23].classList.toggle('faq-sepeator-open')
+            faqBodyArray[23].classList.toggle('btn-faq-body-open')
+            faqIconsArray[23].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(24)) {
+            faqButtonsArray[24].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[24].classList.toggle('faq-sepeator-open')
+            faqBodyArray[24].classList.toggle('btn-faq-body-open')
+            faqIconsArray[24].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(25)) {
+            faqButtonsArray[25].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[25].classList.toggle('faq-sepeator-open')
+            faqBodyArray[25].classList.toggle('btn-faq-body-open')
+            faqIconsArray[25].classList.toggle('faq-icon-open')
+        }
+
+
+        if (button.classList.contains(26)) {
+            faqButtonsArray[26].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[26].classList.toggle('faq-sepeator-open')
+            faqBodyArray[26].classList.toggle('btn-faq-body-open')
+            faqIconsArray[26].classList.toggle('faq-icon-open')
+        }
+
+        if (button.classList.contains(27)) {
+            faqButtonsArray[27].classList.toggle('btn-faq-open')
+            faqSeperatorsArray[27].classList.toggle('faq-sepeator-open')
+            faqBodyArray[27].classList.toggle('btn-faq-body-open')
+            faqIconsArray[27].classList.toggle('faq-icon-open')
+        }
 
     })
 

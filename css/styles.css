@@ -1867,6 +1867,7 @@ body
   background-color: var(--primary);
   border-radius: 10px;
   margin: 1rem;
+  padding-right: 1rem;
 
   overflow: hidden;
 }
@@ -1944,6 +1945,17 @@ body
   font-weight: 600;
 }
 
+#home-nav-link-destination > section.FAQ-section > div > div.FAQ-grid > div.FAQ-container.FAQ-container-specialist > div > div.btn-faq.\31 3.btn-faq-open > div.btn-faq-body.btn-faq-body-open > div > ul {
+  font-size: clamp(1.4rem, 2vw, 1.55rem);
+}
+
+.see-more {
+  text-decoration: underline;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  
+}
+
 @media screen and (max-width:768px) {
 
   .FAQ-section-container {
@@ -1951,6 +1963,7 @@ body
   }
   
 }
+
 
 @media screen and (min-width: 900px) {
 
