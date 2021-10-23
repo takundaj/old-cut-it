@@ -156,8 +156,21 @@ nav {
 }
 
 .nav-logo {
-  width: 5.25rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.nav-logo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   padding-bottom: 1rem;
+  align-items: center;
+  color: #000000;
+}
+
+.nav-logo-container > h2 {
+  color: #000000;
 }
 
 .nav-menu-icon {
@@ -232,7 +245,7 @@ color: black;
 
   .nav > li {
     font-size: 1.4rem;
-    margin: 0 2rem;
+    margin: 0 1.1rem;
     padding: 0;
   }
 
