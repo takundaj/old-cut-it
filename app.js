@@ -448,6 +448,83 @@ const howToIconsArray = document.querySelectorAll('.howto-icon')
 const howToTextArray = document.querySelectorAll('.howto-text')
 const howToImage = document.querySelector('.howto-image')
 
+if (window.innerWidth < 900 && !howToButtonsArray.forEach(item => item.classList.contains('.btn-howto-selected'))) {
+    howToImage.setAttribute('src', '/images/nonumber1.png')
+} else if (window.innerWidth > 900 && !howToButtonsArray.forEach(item => item.classList.contains('.btn-howto-selected'))) {
+    howToImage.setAttribute('src', '/images/howto-image-1.png')
+}
+
+
+window.addEventListener('resize', e => {
+
+    const selectedButton = document.querySelector('.btn-howto-selected')
+    
+        if (window.innerWidth < 900) {
+
+            if (!howToButtonsArray.forEach(item => item.classList.contains('.btn-howto-selected'))) {
+                howToImage.setAttribute('src', '/images/nonumber1.png')
+            }
+
+            if (selectedButton.classList.contains(0)) {
+                howToImage.setAttribute('src', '/images/nonumber1.png')
+            }
+    
+            if (selectedButton.classList.contains(1)) {
+                howToImage.setAttribute('src', '/images/nonumber2.png')
+            }
+    
+            if (selectedButton.classList.contains(2)) {
+                howToImage.setAttribute('src', '/images/nonumber3.png')
+            }
+    
+            if (selectedButton.classList.contains(3)) {
+                howToImage.setAttribute('src', '/images/nonumber4.png')
+            }
+    
+            if (selectedButton.classList.contains(4)) {
+                howToImage.setAttribute('src', '/images/nonumber5.png')
+            }
+    
+            if (selectedButton.classList.contains(5)) {
+                howToImage.setAttribute('src', '/images/nonumber6.png')
+            }
+        
+        } else if (window.innerWidth > 900) {
+
+                    if (!howToButtonsArray.forEach(item => item.classList.contains('.btn-howto-selected'))) {
+                        howToImage.setAttribute('src', '/images/howto-image-1.png')
+                    }
+
+                    if (selectedButton.classList.contains(0)) {
+                        howToImage.setAttribute('src', '/images/howto-image-1.png')
+                    }
+            
+                    if (selectedButton.classList.contains(1)) {
+                        howToImage.setAttribute('src', '/images/howto-image-2.png')
+                    }
+            
+                    if (selectedButton.classList.contains(2)) {
+                        howToImage.setAttribute('src', '/images/howto-image-3.png')
+                    }
+            
+                    if (selectedButton.classList.contains(3)) {
+                        howToImage.setAttribute('src', '/images/howto-image-4.png')
+                    }
+            
+                    if (selectedButton.classList.contains(4)) {
+                        howToImage.setAttribute('src', '/images/howto-image-5.png')
+                    }
+            
+                    if (selectedButton.classList.contains(5)) {
+                        howToImage.setAttribute('src', '/images/howto-image-6.png')
+                    }
+
+    
+        }
+
+
+})
+
 
 howToButtonsArray.forEach( button => {
 
@@ -462,7 +539,11 @@ howToButtonsArray.forEach( button => {
             //change icons
             howToIconsArray[0].classList.toggle('howto-icon-selected')
             //change how to image
-            howToImage.setAttribute('src','/images/howto-image-1.png')
+            if (window.innerWidth >= 900) {
+                howToImage.setAttribute('src','/images/howto-image-1.png')
+            } else if (window.innerWidth <= 900) {
+                howToImage.setAttribute('src','/images/nonumber1.png')
+            }
 
             //deselect others (background)
             howToButtonsArray.forEach(item => {
@@ -499,7 +580,11 @@ howToButtonsArray.forEach( button => {
             howToIconsArray[1].classList.toggle('howto-icon-selected')
     
             //change how to image
-            howToImage.setAttribute('src','/images/howto-image-2.png')
+            if (window.innerWidth  > 900) {
+                howToImage.setAttribute('src','/images/howto-image-2.png')
+            } else {
+                howToImage.setAttribute('src','/images/nonumber2.png')
+            }
 
             //deselect others (background)
             howToButtonsArray.forEach(item => {
@@ -535,7 +620,11 @@ howToButtonsArray.forEach( button => {
             howToIconsArray[2].classList.toggle('howto-icon-selected')        
             
             //change how to image
-            howToImage.setAttribute('src','/images/howto-image-3.png')
+            if (window.innerWidth > 900) {
+                howToImage.setAttribute('src','/images/howto-image-3.png')
+            } else {
+                howToImage.setAttribute('src','/images/nonumber3.png')
+            }
 
 
             //deselect others (background)
@@ -571,7 +660,11 @@ howToButtonsArray.forEach( button => {
             howToIconsArray[3].classList.toggle('howto-icon-selected')
 
             //change how to image
-            howToImage.setAttribute('src','/images/howto-image-4.png')
+            if (window.innerWidth >= 900) {
+                howToImage.setAttribute('src','/images/howto-image-4.png')
+            } else if (window.innerWidth <= 900) {
+                howToImage.setAttribute('src','/images/nonumber4.png')
+            }
 
             //deselect others (background)
             howToButtonsArray.forEach(item => {
@@ -606,7 +699,11 @@ howToButtonsArray.forEach( button => {
             howToIconsArray[4].classList.toggle('howto-icon-selected')
 
             //change how to image
-            howToImage.setAttribute('src','/images/howto-image-5.png')
+            if (window.innerWidth >= 900) {
+                howToImage.setAttribute('src','/images/howto-image-5.png')
+            } else if (window.innerWidth <= 900) {
+                howToImage.setAttribute('src','/images/nonumber5.png')
+            }
 
             //deselect others (background)
             howToButtonsArray.forEach(item => {
@@ -643,7 +740,11 @@ howToButtonsArray.forEach( button => {
             howToIconsArray[5].classList.toggle('howto-icon-selected')
 
             //change how to image
-            howToImage.setAttribute('src','/images/howto-image-6.png')
+            if (window.innerWidth >= 900) {
+                howToImage.setAttribute('src','/images/howto-image-6.png')
+            } else if (window.innerWidth <= 900) {
+                howToImage.setAttribute('src','/images/nonumber6.png')
+            }
 
             //deselect others (background)
             howToButtonsArray.forEach(item => {
