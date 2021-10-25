@@ -797,28 +797,6 @@ faqButtonsArray.forEach((button, i) => {
 })
 
 
-//FAQ - See more functionality
-const seeMoreButton = document.querySelector('.see-more');
-const hideables = document.querySelectorAll('.hideable')
-
-seeMoreButton.addEventListener('click', event => {
-
-    if (seeMoreButton.textContent === "Click here to see more") {
-        hideables.forEach(item => {
-            item.classList.remove('hiding')
-            seeMoreButton.textContent = "Click here to see less"
-        })
-
-    } else if (seeMoreButton.textContent === "Click here to see less") {
-        hideables.forEach(item => {
-            item.classList.add('hiding')
-            seeMoreButton.textContent = "Click here to see more"
-        })
-    }
-
-})
-
-
 //subscription email validation
 const emailForm = document.querySelector('.email-form');
 const emailFormTextFieldContainer = document.querySelector('#mc-embedded-subscribe-form > div.textfield-container');
