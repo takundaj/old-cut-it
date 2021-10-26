@@ -70,6 +70,11 @@ h3 {
   letter-spacing: -0.25rem;
 }
 
+.privay-policy__body h3 {
+  margin-top: clamp(4rem, 8vw, 8rem);
+  margin-bottom: clamp(1rem, 2vw, 2rem);
+}
+
 p {
   font-size: clamp(1.4rem, 2vw, 1.55rem);
 }
@@ -577,4 +582,8 @@ footer {
   
   .privay-policy__body {
     padding: 0 5vw;
+  }
+
+  .privacy-policy-title {
+    margin-bottom: clamp(2rem, 5vw, 8rem);
   }
