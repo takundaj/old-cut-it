@@ -33,7 +33,7 @@ menuButton.addEventListener('click', event => {
 const titleObject = document.getElementById('job-title');
 
 //Declare array of specialist title you want to loops through
-const jobsArray= ["Specialist","Barber", "Hairdresser", "Tattoo Artist", "Nail Tech", "Beautician"]
+const jobsArray= ["Specialist","Barber", "Hairdresser", "Tattoo Artist", "Nail Tech", "Beautician","Loctician"]
 
 let i = 0
 let j = 0
