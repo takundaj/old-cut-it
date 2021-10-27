@@ -331,7 +331,7 @@ color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: clamp(2rem, 10vh, 20rem);
+  padding-top: clamp(4rem, 10vw, 6rem);
   padding-bottom: clamp(2rem, 4vh, 8rem);
   background-image: url(/images/faq\background.svg);
   background-repeat: no-repeat;
