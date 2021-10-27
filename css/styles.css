@@ -2074,12 +2074,12 @@ footer {
 }
 
 .footer-logo-section .footer-logo {
-  width: 5rem;
+  width: clamp(4rem, 5vw, 5.5rem);
 }
 
 .footer-logo-section .footer-title {
-  font-size: 4rem;
-  margin-left:0.5rem ;
+  font-size: clamp(2.75rem, 3vw, 4rem);
+  margin-left:1vw ;
 }
 
 .footer-title {
