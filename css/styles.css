@@ -1848,7 +1848,7 @@ body
 .FAQ-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.75fr 1fr;
+  grid-template-rows: fit-content fit-content;
   margin-left: clamp(1rem, 3vw, 5rem);
   margin-right: clamp(1rem, 3vw, 5rem);
 
@@ -2464,7 +2464,7 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-.contact-form-message:focus, .contact-input:focus {
+.contact-form-message:focus, .contact-input:focus, .group input:focus {
 
   box-shadow: 0 0 0.5rem var(--primary);
 
