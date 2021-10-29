@@ -322,7 +322,7 @@ color: black;
   max-width: 160rem;
   margin-left: clamp(2rem, 15vw, 35rem);
   margin-right: clamp(2rem, 15vw, 35rem);
-  padding-top: clamp(5rem, 5vh, 8rem);
+  
   
 }
 
