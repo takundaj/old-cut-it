@@ -2525,5 +2525,6 @@ footer {
 }
 
 #CybotCookiebotDialogBodyButtons button {
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
