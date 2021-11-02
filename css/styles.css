@@ -2521,5 +2521,5 @@ footer {
 }
 
 #CookiebotWidget-widgetContent {
-  display: none;
+  opacity: 0;
 }
