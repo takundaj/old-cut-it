@@ -2523,3 +2523,7 @@ footer {
 #CookiebotWidget-widgetContent {
   opacity: 0;
 }
+
+#CybotCookiebotDialogBodyButtonAccept {
+  background-attachment: var(--primary);
+}
