@@ -2524,6 +2524,6 @@ footer {
   opacity: 0;
 }
 
-#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonAccept, #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonAccept, #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+#CybotCookiebotDialogBodyButtons button {
   background-color: var(--primary);
 }
