@@ -2519,3 +2519,7 @@ footer {
     width: 100%;
   }
 }
+
+#CookiebotWidget-widgetContent {
+  display: none;
+}
