@@ -2529,6 +2529,6 @@ footer {
   border-color: var(--primary) !important;
 }
 
-#CybotCookiebotDialogBodyEdgeMoreDetailsLink a{
+#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a{
   color: var(--primary) !important;
 }
