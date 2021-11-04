@@ -2636,3 +2636,75 @@ footer {
   }
   
 }
+
+
+
+/* OTHER COOKIE BANNER STYLES */
+
+/* bottom */
+#privacypolicies-com---nb {
+  background-color: white;
+  box-shadow: 0 0 1rem grey;
+  max-width: 100%;
+}
+
+#cc-nb-title {
+  color: var(--primary);
+}
+
+#privacypolicies-com---nb > div > div.cc-nb-text-container {
+  margin: 2rem auto;
+  margin-bottom: 3rem;
+}
+
+#privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-okagree {
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+#privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-changep {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+}
+
+
+/* change my preferences pop up */
+
+#privacypolicies-com---preferences-center > div {
+  border-radius: 50px;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-foot > div.cc-cp-foot-button > button {
+  background-color: var(--primary);
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-body {
+  background-color: #fff;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-body > ul > li {
+  background-color: #fff;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-body > div {
+  background-color: #fff;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-foot {
+  background-color: #fff;
+}
+
+#content_more_information > p:nth-child(3) > a {
+  color:var(--primary);
+  text-decoration: underline;
+}
+
+@media screen and (min-width:900px) {
+  
+}

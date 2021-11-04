@@ -886,7 +886,9 @@ fetch("https://formsubmit.co/ajax/support@cutitapp.co.uk", {
 
 
 
+const cookiePreferenceLogo = document.querySelector("#privacypolicies-com---preferences-center > div > div > div.cc-pc-head > div.cc-pc-head-title > p.cc-pc-head-title-text");
 
+cookiePreferenceLogo.innerHTML = `<img class="cookie-box__image" src="/images/logo.png" alt="" />`
 
 
 
