@@ -2649,6 +2649,7 @@ footer {
 }
 
 #cc-nb-title {
+  font-size: 3rem;
   color: var(--primary);
 }
 
