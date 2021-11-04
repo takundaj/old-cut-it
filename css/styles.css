@@ -2719,6 +2719,10 @@ footer {
 
 }
 
-@media screen and (min-width:900px) {
-  
+@media screen and (max-width:600px) {
+
+  #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-changep {
+    margin: 1rem 0rem;
+  }
+
 }
