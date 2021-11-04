@@ -42,7 +42,7 @@ let isDeleting = false
 let isEnd = false
 
 
-async function loop() {
+function loop() {
     let isEnd = false
     titleObject.innerHTML = currentJobTitle.join('')
     
