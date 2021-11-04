@@ -2534,3 +2534,105 @@ footer {
 #CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a{
   color: var(--primary) !important;
 }
+
+/* My own custom Cookie banner */
+
+.cookie-box {
+  max-width: 70%;
+  height: fit-content;
+  padding: 2rem 4rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem grey;
+  position: fixed;
+  top: 0;
+  left: 10%;
+  right: 10%;
+}
+
+.cookie-box__content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cookie-box__icon {
+  text-align: center;
+}
+.cookie-box__image {
+  max-width: 7rem;
+}
+
+.cookie-box__text {
+  margin: 5vw auto;
+  text-align: center;
+
+}
+
+.cookie-box__link {
+  color: var(--primary);
+  text-decoration: underline;
+
+}
+
+.LS {
+  display: none;
+}
+
+
+.cookie-box__buttons {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.cookie-box__btn {
+  font-size: 1.6rem;
+  padding:1rem 2.5rem;
+  margin:1rem 0.4rem;
+  border-radius: 10px;
+  outline: none;
+  border:none;
+  background: var(--primary);
+  color: #fff;
+}
+
+
+@media screen and (min-width:900px) {
+
+  .cookie-box {
+    max-width: 100%;
+    padding: 0.5rem 2rem;
+    position: fixed;
+    top:unset;
+    bottom: 0;
+    left: unset;
+    right: unset;
+  }
+
+  .cookie-box__content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cookie-box__icon {
+    min-width: 12rem;
+  }
+
+  .cookie-box__image {
+    max-width: 10rem;
+  }
+
+  .cookie-box__buttons {
+    min-width: 15rem;
+    align-self: center;
+  }
+  .cookie-box__text {
+    max-width: 70%;
+    text-align: left;
+    margin: 5vw;
+  }
+  
+}
