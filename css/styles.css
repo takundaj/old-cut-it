@@ -2675,10 +2675,15 @@ footer {
 /* change my preferences pop up */
 
 #privacypolicies-com---preferences-center > div {
+  font-family:'Montserrat', sans-serif;
+}
+
+#privacypolicies-com---preferences-center > div {
   border-radius: 50px;
 }
 
 #privacypolicies-com---preferences-center > div > div > div.cc-cp-foot > div.cc-cp-foot-button > button {
+  font-family:'Montserrat', sans-serif;
   background-color: var(--primary);
   border-radius: 8px;
   padding: 0.75rem 1.5rem;
@@ -2688,8 +2693,11 @@ footer {
   background-color: #fff;
 }
 
-#privacypolicies-com---preferences-center > div > div > div.cc-cp-body > ul > li {
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-body > ul > li > a {
+  font-family:'Montserrat', sans-serif;
   background-color: #fff;
+  color: #000000;
+  font-weight: normal;
 }
 
 #privacypolicies-com---preferences-center > div > div > div.cc-cp-body > div {
@@ -2703,6 +2711,11 @@ footer {
 #content_more_information > p:nth-child(3) > a {
   color:var(--primary);
   text-decoration: underline;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-body > ul {
+  background:white;
+
 }
 
 @media screen and (min-width:900px) {
