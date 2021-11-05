@@ -2733,8 +2733,8 @@ footer {
   padding: 3rem 5vw;
 }
 
-#content_your_privacy {
-  padding: 5vw;
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-body > div {
+  padding: 3rem;
 }
 
 #privacypolicies-com---preferences-center > div > div > div.cc-cp-foot {
@@ -2763,4 +2763,7 @@ footer {
     padding-right:0;
   }
 
+  #privacypolicies-com---preferences-center > div > div > div.cc-cp-body > div {
+    padding: 1.5rem;
+  }
 }
