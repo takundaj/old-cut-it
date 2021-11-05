@@ -2730,6 +2730,15 @@ footer {
   padding: 5vw;
 }
 
+#privacypolicies-com---preferences-center > div > div > div.cc-cp-foot {
+  padding: 1.5rem;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-pc-head > div.cc-pc-head-lang > select {
+  font-size: 1.4rem;
+  border: none;
+}
+
 @media screen and (max-width:600px) {
 
   #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-changep {
