@@ -2687,7 +2687,8 @@ footer {
 }
 
 #privacypolicies-com---preferences-center > div {
-  border-radius: 50px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 #privacypolicies-com---preferences-center > div > div > div.cc-cp-foot > div.cc-cp-foot-button > button {
@@ -2747,7 +2748,9 @@ footer {
 }
 
 #privacypolicies-com---preferences-center > div > div > div.cc-pc-head > div.cc-pc-head-lang > button {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  color: #9f8268;
+  font-weight:bold;
 }
 
 
