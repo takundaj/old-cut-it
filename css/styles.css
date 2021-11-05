@@ -2661,7 +2661,11 @@ footer {
 #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-okagree {
   background-color: var(--primary);
   border-radius: 10px;
-  padding: 1rem 2rem;
+  padding: 1rem 5rem;
+}
+
+#privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-okagree::after {
+  content: ", I understand";
 }
 
 #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-changep {
@@ -2738,6 +2742,9 @@ footer {
   font-size: 1.4rem;
   border: none;
 }
+
+
+
 
 @media screen and (max-width:600px) {
 
