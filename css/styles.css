@@ -2716,7 +2716,18 @@ footer {
 
 #privacypolicies-com---preferences-center > div > div > div.cc-cp-body > ul {
   background:white;
+}
 
+.privacypolicies-com---pc-dialog .cc-cp-body-tabs-item-link {
+  padding: 1.75rem;
+}
+
+#privacypolicies-com---preferences-center > div > div > div.cc-pc-head > div.cc-pc-head-title {
+  padding: 3rem 5vw;
+}
+
+#content_your_privacy {
+  padding: 5vw;
 }
 
 @media screen and (max-width:600px) {
