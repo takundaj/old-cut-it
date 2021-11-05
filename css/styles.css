@@ -2646,6 +2646,8 @@ footer {
   background-color: white;
   box-shadow: 0 0 1rem grey;
   max-width: 100%;
+  padding-left:clamp(0rem, 3vw, 4rem);
+  padding-right:clamp(0rem, 3vw, 4rem);
 }
 
 #cc-nb-title {
@@ -2661,7 +2663,8 @@ footer {
 #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-okagree {
   background-color: var(--primary);
   border-radius: 10px;
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
+
 }
 
 #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-okagree::after {
@@ -2673,7 +2676,7 @@ footer {
   color: #fff;
   border-radius: 10px;
   padding: 1rem 2rem;
-  margin: 0 1rem;
+  margin:0 1rem ;
 }
 
 
@@ -2746,10 +2749,18 @@ footer {
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
 
   #privacypolicies-com---nb > div > div.cc-nb-buttons-container > button.cc-nb-changep {
     margin: 1rem 0rem;
+  }
+
+  #privacypolicies-com---nb {
+    background-color: white;
+    box-shadow: 0 0 1rem grey;
+    max-width: 100%;
+    padding-left:0;
+    padding-right:0;
   }
 
 }
