@@ -1243,7 +1243,7 @@ body
   }
 
   .howto-image {
-  width: 50rem;
+  width: 60rem;
 
   }
 
@@ -1256,7 +1256,7 @@ body
   }
 
   .howto-list-container {
-    height: 43.5rem;
+    height: 41rem;
     max-width: 100%;
     display: flex;
     flex-direction: column;
