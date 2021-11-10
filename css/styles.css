@@ -2777,3 +2777,21 @@ footer {
     padding: 1.5rem;
   }
 }
+
+.back-to-top {
+  display: none;
+}
+
+@media screen and (max-width:600px) {
+  .back-to-top {
+    display: block;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+  
+  .back-to-top > a {
+    color: #9f8268;
+    text-decoration: underline;
+  }
+}
+
