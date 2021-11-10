@@ -164,7 +164,6 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding-bottom: 1rem;
   align-items: center;
   color: #000000;
 }
